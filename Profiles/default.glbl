@@ -4,4 +4,24 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://jadeertesting.suredemos.com/Account/Login_ChangeLanguage/?Language=lxdg%2B1NKHabC2BT23ZH2fw%3D%3D'</initValue>
+      <name>UAL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1024901843'</initValue>
+      <name>SME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'5BbLVu4RU9Ib6pZvh+yJOw=='</initValue>
+      <name>SMEPW</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'(//div[@onclick=\'TakeAction(this);\'])[19]'</initValue>
+      <name>regID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

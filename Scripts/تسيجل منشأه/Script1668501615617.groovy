@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.UAL)
+WebUI.mouseOver(findTestObject('register/popup'))
 
-WebUI.setText(findTestObject('login/input__UserName'), GlobalVariable.SME)
+WebUI.click(findTestObject('register/Select', [('variable') : GlobalVariable.regID]))
 
-WebUI.setEncryptedText(findTestObject('login/input__Password'), GlobalVariable.SMEPW)
+WebUI.maximizeWindow()
 
-WebUI.delay(10)
+WebUI.mouseOver(findTestObject('register/header'))
 
-WebUI.click(findTestObject('login/button_'))
+WebUI.click(findTestObject('register/Select prof'))
 
