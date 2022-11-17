@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>add new wakel</name>
+   <tag></tag>
+   <elementGuidId>c737d86f-f371-424c-b5f8-947ee4f18489</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn_ShowAgentPopup']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btn_ShowAgentPopup</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bdecdaae-36e4-42a7-97ca-c8b5e8e238dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btn_ShowAgentPopup</value>
+      <webElementGuid>a0c2145d-52e3-4fe1-81a2-614fd226da16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>15c76e28-82c5-437d-bb4c-99122ebc797e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-secondary btn-xs pull-right btnadd</value>
+      <webElementGuid>f54f3fa5-7c8e-4705-adff-92c7660c33fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>ShowAgentPopup('ChFutOd6x7TFSqdsFuyt9g==','اضافة شركة (الوكيل)')</value>
+      <webElementGuid>f5f747c6-c55f-45c2-b1c5-5fde05ec6e5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                            اضافة شركة (الوكيل)
+                                                        </value>
+      <webElementGuid>9e5e97eb-5aa3-465d-84c9-8862b600743e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btn_ShowAgentPopup&quot;)</value>
+      <webElementGuid>ef088d8b-d038-4ff2-9dda-12755aefcb5b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btn_ShowAgentPopup']</value>
+      <webElementGuid>dae82fc4-9d90-4b4a-8714-25cb31118c48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divAgent']/div/div/button</value>
+      <webElementGuid>7e34d07f-8681-43f4-8618-d2e6f374c1c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='شركات الوكيل'])[1]/following::button[1]</value>
+      <webElementGuid>c989b920-9f48-43e3-9bf6-c8f3d9109942</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اسم الشركة باللغة الانجليزية (الوكيل)'])[1]/preceding::button[1]</value>
+      <webElementGuid>ceb9a4d3-e735-4e30-82b0-d2704b55911c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اسم الشركة باللغة العربية (الوكيل)'])[1]/preceding::button[1]</value>
+      <webElementGuid>66a5c03f-9308-4ece-9e96-8b9b9ae02243</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='اضافة شركة (الوكيل)']/parent::*</value>
+      <webElementGuid>3c02f891-f562-4b14-87f6-83b8267c8714</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/div/button</value>
+      <webElementGuid>265524d8-963f-4f33-a4f3-410881786a27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'btn_ShowAgentPopup' and @type = 'button' and (text() = '
+                                                            اضافة شركة (الوكيل)
+                                                        ' or . = '
+                                                            اضافة شركة (الوكيل)
+                                                        ')]</value>
+      <webElementGuid>0e29516f-d9b9-415d-93af-a6092a228b01</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

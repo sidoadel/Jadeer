@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select3</name>
+   <tag></tag>
+   <elementGuidId>1eac88be-3350-4a61-8ae2-987603a07a19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.k-dropdown-wrap.k-state-default.k-state-hover.k-state-focused > span.k-select > span.k-icon.k-i-arrow-60-down</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;OwnershipDetailsDiv&quot;)/div[@class=&quot;pull-left bg-box-shadow&quot;]/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-6 col-lg-6 col-sm-12 col-xs-12 pad-right-mob-0 pad-left-mob-0 pad-left-0 fl-right&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-lg-6 col-sm-12 col-xs-12 pad-right-mob-0 pad-left-mob-0 pad-left-5 fl-right pad-right-0&quot;]/span[@class=&quot;k-widget k-dropdown k-header form-control&quot;]/span[@class=&quot;k-dropdown-wrap k-state-default k-state-hover k-state-focused&quot;]/span[@class=&quot;k-select&quot;]/span[@class=&quot;k-icon k-i-arrow-60-down&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='OwnershipDetailsDiv']/div/div[2]/div[2]/div/div/span/span/span[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>535ed323-b377-4596-9502-2e9e24ceb2e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-icon k-i-arrow-60-down</value>
+      <webElementGuid>ed67b57c-fcb4-46ea-a38f-031dc8337e19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;OwnershipDetailsDiv&quot;)/div[@class=&quot;pull-left bg-box-shadow&quot;]/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-6 col-lg-6 col-sm-12 col-xs-12 pad-right-mob-0 pad-left-mob-0 pad-left-0 fl-right&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-lg-6 col-sm-12 col-xs-12 pad-right-mob-0 pad-left-mob-0 pad-left-5 fl-right pad-right-0&quot;]/span[@class=&quot;k-widget k-dropdown k-header form-control&quot;]/span[@class=&quot;k-dropdown-wrap k-state-default k-state-hover k-state-focused&quot;]/span[@class=&quot;k-select&quot;]/span[@class=&quot;k-icon k-i-arrow-60-down&quot;]</value>
+      <webElementGuid>bb7d16b2-569a-4d74-81bc-09ccbe833925</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='OwnershipDetailsDiv']/div/div[2]/div[2]/div/div/span/span/span[2]/span</value>
+      <webElementGuid>1c84f9c0-889e-446a-b785-2bc741e30a8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/span/span/span[2]/span</value>
+      <webElementGuid>907d1e70-96cb-4915-bbc1-9889ef19e66f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

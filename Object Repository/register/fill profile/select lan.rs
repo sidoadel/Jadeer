@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select lan</name>
+   <tag></tag>
+   <elementGuidId>45da55b0-477d-462f-bc07-9441d2c39fbd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.k-icon.k-i-arrow-60-down</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CompanyDetails_Header1Div']/div[3]/div/span[2]/span/span[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>71d2ddac-7030-4ce2-bed1-892e55cadb9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-icon k-i-arrow-60-down</value>
+      <webElementGuid>6345a2aa-02d4-4487-9a0a-2e5d8e5077d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CompanyDetails_Header1Div&quot;)/div[@class=&quot;row col-sm-12 col-xs-12 col-lg-12 col-md-12 form-group&quot;]/div[@class=&quot;col-sm-12 col-xs-12 col-md-6 col-lg-6 fl-right&quot;]/span[@class=&quot;k-widget k-dropdown k-header form-control&quot;]/span[@class=&quot;k-dropdown-wrap k-state-default k-state-hover k-state-focused&quot;]/span[@class=&quot;k-select&quot;]/span[@class=&quot;k-icon k-i-arrow-60-down&quot;]</value>
+      <webElementGuid>fcc7c6a9-90e5-4781-9461-4829fc15cbf9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CompanyDetails_Header1Div']/div[3]/div/span[2]/span/span[2]/span</value>
+      <webElementGuid>e4ec94ac-f867-4012-8b9d-e77eabc3f155</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span[2]/span</value>
+      <webElementGuid>17d1f949-582f-4c9b-9257-90f1f7f5e238</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

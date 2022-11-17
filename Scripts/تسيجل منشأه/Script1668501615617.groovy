@@ -19,13 +19,216 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('register/popup'))
+WebUI.mouseOver(findTestObject('register/fill profile/popup'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('register/Select', [('variable') : GlobalVariable.regID]))
+WebUI.click(findTestObject('register/fill profile/Select company'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('register/header'))
+WebUI.mouseOver(findTestObject('register/fill profile/header'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('register/Select prof'))
+WebUI.click(findTestObject('register/fill profile/Select prof'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/prev buttons/input_Select files_btn_Attachment_Prev'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/span__k-select'))
+
+WebUI.click(findTestObject('register/prev buttons/input__btn_Classification_Prev'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('register/prev buttons/input__btn_CompanyHierarchy_Prev1'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('register/prev buttons/input__btn_OwneshipDetails_Prev2'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('register/prev buttons/delete contact'), 4, FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('register/prev buttons/delete contact'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('register/prev buttons/input__btn_ContactInfo_Prev3'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('register/prev buttons/input__btn_CompanySize_Prev4'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('register/prev buttons/input__btn_ZAKAT_Prev5'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('register/prev buttons/input__btn_SAGIA_Prev6'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('register/prev buttons/input__btn_CommercialInformation_Prev7'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('register/prev buttons/input__btn_Address_Prev8'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/input__CompanyName'), 'test company', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/input__BrandName'), 'brand', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/input__BrandNameAr'), 'براند', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/select lan'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/lang arabic'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/next 1'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/select city'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/city'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/Page_/input__District'), 'test ', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/input__BuildingNumber'), '4544', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/input__StreetAddress'), 'Street', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/input__StreetAddressAr'), 'شارع ابو حمد', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/input__GeoLocation'), 'https://www.google.com/maps?cid=18374608280476341734', 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/next2'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/next3'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/next3'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/label_'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/input__btn_SAGIA_Save'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/input__btn_ZAKAT_Save'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/focus1'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('register/fill profile/Page_/lable contain'))
+
+WebUI.click(findTestObject('register/fill profile/Page_/lable contain'), FailureHandling.OPTIONAL)
+
+WebUI.setText(findTestObject('register/fill profile/Page_/input__LocalContentScore'), '4', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/input__btn_CompanySize_Save'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/add contact'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/add contact'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/Page_/input__ContactInformationName'), 'test', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/Page_/input__ContactInformationNameAr'), 'اسم', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/Page_/input__ContactInformationJobTitle'), 'QA', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/Page_/input__ContactInformationJobTitleAr'), 'مهندس', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('register/fill profile/Page_/conact type'), 3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/conact type'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/li_'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/Page_/input__ContactInformationEmail'), 'sayed@gmail.com', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('register/fill profile/Page_/country code'), 3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/country code'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/li_(20)'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/Page_/input__ContactInformationMobile'), '01552020596', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/savecontacr'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/save7'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile//Edit'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile//Ownership_Email'), 's@gmail.com', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile//select 1'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/li_(968)'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile//Ownership_Phone'), '300411696', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile//select2'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/li_(971)'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile//Ownership_Mobile'), '300411696', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Update'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/focus2'), 5)
+
+WebUI.focus(findTestObject('register/fill profile/Page_/input__ManagementDetails'))
+
+WebUI.click(findTestObject('register/fill profile/Page_/input__ManagementDetails'), FailureHandling.OPTIONAL)
+
+WebUI.setText(findTestObject('register/fill profile/Page_/input__OwnershipDetailsName'), 'Ashraf fawzy', FailureHandling.OPTIONAL)
+
+WebUI.setText(findTestObject('register/fill profile/Page_/input__OwnershipDetailsPosition'), 'مهندس مدني', FailureHandling.OPTIONAL)
+
+WebUI.setText(findTestObject('register/fill profile/Page_/input__OwnershipDetailsEmail'), 's@gmail.com', FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('register/fill profile/Page_/select3'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('register/fill profile/li_(61)'), FailureHandling.OPTIONAL)
+
+WebUI.setText(findTestObject('register/fill profile/Page_/input__OwnershipDetailsPhone'), '300411699', FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('register/fill profile/Page_/Save8'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/Page_//select4'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/Page_//select 4 in'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/Page_//has mother yes'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/Page_/Page_//input__CompanyHierarchy_ParentCompanyName'), 'الشركه العربيه', 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/Page_//select5'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/Page_//select5 in'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('register/fill profile/Page_/Page_//input__txtCompanyHierarchy_City'), 'جده', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/save9'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/add nashat'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.selectOptionByValue(findTestObject('register/fill profile/Page_/wakel'), 'وكيل', false)
+
+WebUI.click(findTestObject('register/fill profile/Page_/add wakel'))
+
+WebUI.setText(findTestObject('register/fill profile//search for nashat'), 'لحوم', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile//label_'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/save9'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.uploadFile(findTestObject('register/fill profile/Page_/input__file'), 'C:\\\\Users\\\\andalosya\\\\Desktop\\\\double sign test.docx', 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/Page_/save10'), FailureHandling.STOP_ON_FAILURE)
 

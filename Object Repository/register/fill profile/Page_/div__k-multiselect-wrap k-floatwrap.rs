@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__k-multiselect-wrap k-floatwrap</name>
+   <tag></tag>
+   <elementGuidId>528f6316-6f23-4053-a60f-36eb6024ba3e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.k-multiselect-wrap.k-floatwrap</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dvClassification']/div[2]/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ClassificationTab&quot;)/div[@id=&quot;dvClassification&quot;]/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-lg-6 col-md-6 col-xs-12 col-sm-12&quot;]/div[@class=&quot;k-widget k-multiselect k-multiselect-clearable k-state-focused k-state-hover k-state-border-down&quot;]/div[@class=&quot;k-multiselect-wrap k-floatwrap&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>002bf915-f342-4558-b21e-ce052e7c5247</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-multiselect-wrap k-floatwrap</value>
+      <webElementGuid>4e5d4d68-5a2e-4676-a465-add06358d457</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>48b2190c-f9cd-4f28-a3d0-40953f0cb59f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ClassificationTab&quot;)/div[@id=&quot;dvClassification&quot;]/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-lg-6 col-md-6 col-xs-12 col-sm-12&quot;]/div[@class=&quot;k-widget k-multiselect k-multiselect-clearable k-state-focused k-state-hover k-state-border-down&quot;]/div[@class=&quot;k-multiselect-wrap k-floatwrap&quot;]</value>
+      <webElementGuid>27c9e505-cc70-46cf-9450-15e003f73b74</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dvClassification']/div[2]/div[2]/div/div</value>
+      <webElementGuid>6bc17073-5b03-4783-a7d5-ccb0cfd07fd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تصنيف المنشآة'])[1]/following::div[3]</value>
+      <webElementGuid>45cb0a56-5c29-4fbc-a1aa-34276a3c27bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='حجم المنشآة'])[1]/following::div[6]</value>
+      <webElementGuid>936a20c4-1c74-405a-b72d-420db5cb102a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='قائمة الأنشطة'])[1]/preceding::div[5]</value>
+      <webElementGuid>5659f571-d35d-43c1-8684-9c7af3bdcba8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div/div</value>
+      <webElementGuid>0d514368-380e-49da-9586-f7489bb28643</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

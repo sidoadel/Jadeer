@@ -19,9 +19,4 @@
       <initValue>'5BbLVu4RU9Ib6pZvh+yJOw=='</initValue>
       <name>SMEPW</name>
    </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'(//div[@onclick=\'TakeAction(this);\'])[19]'</initValue>
-      <name>regID</name>
-   </GlobalVariableEntity>
 </GlobalVariableEntities>

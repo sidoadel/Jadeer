@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>delete contact</name>
+   <tag></tag>
+   <elementGuidId>b9b0f9dc-3acf-4cc1-aef8-7f2a4eaadeac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon-bin.grdDelIcon.grdCursorStyle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i[@onclick='DeleteContactInformationRecord(this);']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@title = 'حذف السجل']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>39dc599e-7106-4013-877b-37d897dc3f42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-bin grdDelIcon grdCursorStyle</value>
+      <webElementGuid>fb06f68c-5df4-4b06-adf2-6dea11b33bd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>حذف السجل</value>
+      <webElementGuid>e2e2e739-ac38-4f19-90e5-1134ef654850</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>DeleteContactInformationRecord(this);</value>
+      <webElementGuid>35d76b37-1fc7-4d1a-962f-f67fa2ff1d09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContactInfoGrid&quot;)/div[@class=&quot;k-grid-content k-auto-scrollable&quot;]/table[1]/tbody[1]/tr[1]/td[18]/i[@class=&quot;icon-bin grdDelIcon grdCursorStyle&quot;]</value>
+      <webElementGuid>84147973-9cde-41c7-bcbe-746ae511544f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//i[@onclick='DeleteContactInformationRecord(this);']</value>
+      <webElementGuid>87c13beb-ff36-41d0-ab29-8b0f3d722fee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ContactInfoGrid']/div[2]/table/tbody/tr/td[18]/i</value>
+      <webElementGuid>ee8071a5-cafd-4df5-8ec9-938ce5518260</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[18]/i</value>
+      <webElementGuid>486a9476-71d3-446d-bfc0-41426af5ab9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[@title = 'حذف السجل']</value>
+      <webElementGuid>8eeed8ef-119c-4509-82da-005aa7452523</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

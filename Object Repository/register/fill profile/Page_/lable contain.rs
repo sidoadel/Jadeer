@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lable contain</name>
+   <tag></tag>
+   <elementGuidId>10d07125-d2f0-4141-990a-d0c45a301883</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-md-12.col-lg-12.col-xs-12.col-sm-12.fl-right.radio-toolbar.no-padding-h.no-margin-h > label.padding10-radio</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'نعم فعلا' or . = 'نعم فعلا')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CompanyDetails_Header6Div']/div[3]/div/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>60e30564-791e-41cf-bd57-156b8fabcdde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>rdIsOrganizationHaveContentscoreYes</value>
+      <webElementGuid>92e5a0b6-aede-41f8-9355-5e55052a8c15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>padding10-radio</value>
+      <webElementGuid>a05f6ea5-078a-4a45-b083-cdf434ffdd38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>نعم فعلا</value>
+      <webElementGuid>e4a08195-d93b-4ff3-8a97-8cd291125145</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CompanyDetails_Header6Div&quot;)/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;col-md-6 col-lg-6 col-xs-12 col-sm-12 form-group&quot;]/div[@class=&quot;col-md-12 col-lg-12 col-xs-12 col-sm-12 fl-right radio-toolbar no-padding-h no-margin-h&quot;]/label[@class=&quot;padding10-radio&quot;]</value>
+      <webElementGuid>ba633645-19bb-4bc5-bed2-d86b5c636dd3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CompanyDetails_Header6Div']/div[3]/div/div/label</value>
+      <webElementGuid>fc1bc764-66c5-464a-8ee4-f610df08da1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='هل منشآتك يوجد لها درجة في المحتوى المحلي؟'])[1]/following::label[1]</value>
+      <webElementGuid>0e4d27df-b665-40c9-adfb-1680f89be559</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='إجمالي عدد الموظفين'])[1]/following::label[2]</value>
+      <webElementGuid>d74bfaff-9249-4ba2-bfae-8bd4b21a58bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='لا'])[2]/preceding::label[1]</value>
+      <webElementGuid>b3671800-f0b8-44ce-aca5-7f48e51ef455</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='درجة المحتوى المحلي'])[1]/preceding::label[2]</value>
+      <webElementGuid>6c48fc02-c85a-4276-821d-99dbf9970b0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/label</value>
+      <webElementGuid>16cf68ef-b9a6-4ff7-a769-8ecd8725b689</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'نعم فعلا' or . = 'نعم فعلا')]</value>
+      <webElementGuid>1356674d-451f-4051-a432-55d516361d83</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

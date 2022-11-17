@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_ (1)</name>
+   <tag></tag>
+   <elementGuidId>8d61ccf8-7a92-4b93-9233-6d3a7f74820e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#grdSMEClassificationAgentActivity_active_cell > label.k-checkbox-label.k-no-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//th[@id='grdSMEClassificationAgentActivity_active_cell']/label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;grdSMEClassificationAgentActivity_active_cell&quot;)/label[@class=&quot;k-checkbox-label k-no-text&quot;][count(. | //label[@class = 'k-checkbox-label k-no-text']) = count(//label[@class = 'k-checkbox-label k-no-text'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>ea139ee7-42a5-491f-8808-eb58b19999b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-checkbox-label k-no-text</value>
+      <webElementGuid>cf4746f5-0ad3-4ba6-8317-919acfef02e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>grdSMEClassificationAgentActivity8c7c3751-27d1-4fc8-90b0-a7c4fd5d6200</value>
+      <webElementGuid>8bd29c0b-c444-4808-a4cb-0923f0fd3cff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>​</value>
+      <webElementGuid>589e487a-0cbb-445c-a74d-3ed23e6b61b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;grdSMEClassificationAgentActivity_active_cell&quot;)/label[@class=&quot;k-checkbox-label k-no-text&quot;]</value>
+      <webElementGuid>75fae1bb-4a94-4b08-8dd9-93bfb45f12f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//th[@id='grdSMEClassificationAgentActivity_active_cell']/label</value>
+      <webElementGuid>1b7c2be0-824b-47d0-85f1-f12766260ca0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ابحث باسم النشاط أو كود النشاط'])[2]/following::label[1]</value>
+      <webElementGuid>9e8e238f-3c62-441c-aa76-08fb3ae85f0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='قائمة الأنشطة'])[2]/following::label[2]</value>
+      <webElementGuid>3148aefa-b885-4b73-8d52-8e9a9bef5b64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SME Activity ID'])[2]/preceding::label[1]</value>
+      <webElementGuid>efa65c65-f5ab-4f56-a4b6-6c8365cb239d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رمز النشاط'])[2]/preceding::label[1]</value>
+      <webElementGuid>28a9d8f8-8779-45eb-9278-01daa3e839b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/table/thead/tr/th/label</value>
+      <webElementGuid>96e6b414-f68d-476e-90dd-9838dcc8ac3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = '​' or . = '​')]</value>
+      <webElementGuid>56f3952a-7d63-4cd0-8a7e-d2240733468e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
