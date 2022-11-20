@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_ - Copy (2)</name>
+   <tag></tag>
+   <elementGuidId>020c1e2a-435f-4412-bfd3-e2954437936b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@id='tdControls']/span/label[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>bc6ef32c-a979-4f88-a44d-e07f8e66f68f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>control-label padding10-radio</value>
+      <webElementGuid>2aae036f-6fab-4ecc-99b7-6fdea5e7ca40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>ItemID-137-لا</value>
+      <webElementGuid>ccb0cd83-e287-485b-8f74-3469ad4b497d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>لا</value>
+      <webElementGuid>682de322-144c-41aa-9c25-efc1f5684c80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;QuestionnaireTbl&quot;)/tbody[1]/tr[@class=&quot;item&quot;]/td[@id=&quot;tdControls&quot;]/span[@class=&quot;fl-right radio-toolbar&quot;]/label[@class=&quot;control-label padding10-radio&quot;]</value>
+      <webElementGuid>3f259d11-e3c2-4d7f-aa1b-4f7e366e5bf8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='tdControls']/span/label[2]</value>
+      <webElementGuid>791708d5-2ceb-4bf4-9725-3862b26d2b6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='نعم'])[4]/following::label[1]</value>
+      <webElementGuid>27c56e5f-82e1-45f1-a0e3-eb9df5a16e06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='هل لدى منشأتك سياسة لإدارة الصحة والسلامة؟'])[1]/following::label[3]</value>
+      <webElementGuid>c18a31eb-21dd-4dd5-8f97-f6f78d6c4182</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::label[1]</value>
+      <webElementGuid>8b3b44f0-99c9-40ed-bc95-8080f554da59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='نسخة من الوثيقة الداعمة'])[1]/preceding::label[1]</value>
+      <webElementGuid>6433430f-cae8-49f8-82a4-c9631a784b1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/label[2]</value>
+      <webElementGuid>7e32d7a1-a96c-4845-9edb-3d28532e2a8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'لا' or . = 'لا')]</value>
+      <webElementGuid>cb0d16dc-020d-43b8-ad86-045502b9b565</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span__k-icon k-i-calendar attachment</name>
+   <tag></tag>
+   <elementGuidId>c67d724c-2621-4d9e-a894-bb30d940bf20</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.k-picker-wrap.k-state-default.k-state-hover.k-state-focused > span.k-select > span.k-icon.k-i-calendar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@id='AttachmentDetailsgrid_active_cell']/div/span/span/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4705d3fd-d178-4d73-9322-6fee4b62caf7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-icon k-i-calendar</value>
+      <webElementGuid>af238744-8779-41b4-af18-681abb798139</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;AttachmentDetailsgrid_active_cell&quot;)/div[@class=&quot;pull-left mr-10 br-less&quot;]/span[@class=&quot;k-widget k-datepicker k-header expdatepicker&quot;]/span[@class=&quot;k-picker-wrap k-state-default k-state-hover k-state-focused&quot;]/span[@class=&quot;k-select&quot;]/span[@class=&quot;k-icon k-i-calendar&quot;]</value>
+      <webElementGuid>51aa3937-a3f0-4747-ae93-a2f1e3ae4bb0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='AttachmentDetailsgrid_active_cell']/div/span/span/span/span</value>
+      <webElementGuid>454d352d-8b6e-4965-ab3f-8fb3477f9961</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/div/span/span/span/span</value>
+      <webElementGuid>7064c41c-074f-4944-8578-13f28cf8cfca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

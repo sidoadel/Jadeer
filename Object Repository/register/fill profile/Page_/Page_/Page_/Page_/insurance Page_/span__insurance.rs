@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span__insurance</name>
+   <tag></tag>
+   <elementGuidId>fbfbe2ad-92fb-4c92-bd9a-5223ccfff938</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.k-dropdown-wrap.k-state-default.k-state-focused > span.k-select > span.k-icon.k-i-arrow-60-down</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divInsurancejustification']/div[2]/span/span/span[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>03c02b8d-bf77-42fa-8720-a8cf5f2d14cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-icon k-i-arrow-60-down</value>
+      <webElementGuid>5db4a85e-a2c8-4a25-acb3-62cf02048873</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divInsurancejustification&quot;)/div[@class=&quot;col-md-12 col-lg-12 col-sm-12 col-xs-12&quot;]/span[@class=&quot;k-widget k-dropdown k-header form-control&quot;]/span[@class=&quot;k-dropdown-wrap k-state-default k-state-focused&quot;]/span[@class=&quot;k-select&quot;]/span[@class=&quot;k-icon k-i-arrow-60-down&quot;]</value>
+      <webElementGuid>c692c859-480b-40ee-acf3-deedb44201b3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divInsurancejustification']/div[2]/span/span/span[2]/span</value>
+      <webElementGuid>8a38a156-da9b-4ea8-9b7c-b8ddd2bbb081</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/span/span/span[2]/span</value>
+      <webElementGuid>3c7184a5-66d5-4116-bcc0-985ce236951f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

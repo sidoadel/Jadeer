@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span__k-icon k-i-calendar - Copy</name>
+   <tag></tag>
+   <elementGuidId>e16281af-c796-4b26-8c30-a4d72f85f09a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.k-widget.k-datepicker.k-header.form-control.Quest_DatePicker > span.k-picker-wrap.k-state-default > span.k-select > span.k-icon.k-i-calendar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@id='tdControls_156]/span/span/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>627259c8-9ab8-41e4-a537-b26c0d24d224</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-icon k-i-calendar</value>
+      <webElementGuid>e0641e9d-1e77-4cae-b5f7-3650bc91d62d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tdControls_155&quot;)/span[@class=&quot;k-widget k-datepicker k-header form-control Quest_DatePicker&quot;]/span[@class=&quot;k-picker-wrap k-state-default&quot;]/span[@class=&quot;k-select&quot;]/span[@class=&quot;k-icon k-i-calendar&quot;]</value>
+      <webElementGuid>d8d40678-e57c-4451-ba84-1302096ae883</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='tdControls_155']/span/span/span/span</value>
+      <webElementGuid>43b520de-d9ab-4586-a7ef-e7b26b5e2f48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/span/span/span/span</value>
+      <webElementGuid>5046b1ba-7d2f-4cb9-876b-a0b6a14b74b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

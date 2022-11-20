@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.UAL)
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.setText(findTestObject('login/input__UserName'), GlobalVariable.SME)
 

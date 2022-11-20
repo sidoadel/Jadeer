@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_no</name>
+   <tag></tag>
+   <elementGuidId>8bdcd52f-df83-4620-88a0-4e8e59f46880</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='InsuranceDiv']/div[2]/div/div[2]/div/label[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>b4882fa3-103a-472f-b6bf-ffa4d91695a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>control-label padding10-radio</value>
+      <webElementGuid>25513e7e-6efe-488d-8170-2ca679aa8d6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>Insurance_Rdbtn_No</value>
+      <webElementGuid>1d67bd3d-72a3-413a-985c-0274c8d81432</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>لا</value>
+      <webElementGuid>5a3ea508-56e5-4deb-bf29-e42c98ffedb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;InsuranceDiv&quot;)/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-md-12 col-lg-12 col-sm-12 col-xs-12&quot;]/div[@class=&quot;col-md-12 col-lg-12 col-sm-12 col-xs-12 fl-right radio-toolbar no-padding-h no-margin&quot;]/div[@class=&quot;col-sm-6 fl-right radio-toolbar pad-right-0 pad-left-0  no-padding-h no-margin&quot;]/label[@class=&quot;control-label padding10-radio&quot;]</value>
+      <webElementGuid>147f992a-7042-4e86-b1b5-6747923eb184</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='InsuranceDiv']/div[2]/div/div[2]/div/label[2]</value>
+      <webElementGuid>0bbcf005-a865-4ee4-a8d9-eb0034b4256e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='نعم'])[3]/following::label[1]</value>
+      <webElementGuid>73ef7475-f200-41db-99d7-a9e7be093ff3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='هل لدى مؤسستك تأمين؟'])[1]/following::label[2]</value>
+      <webElementGuid>fb0f167b-ff7b-4fc5-995c-2643e36d2bd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='مبررات'])[1]/preceding::label[1]</value>
+      <webElementGuid>c64f99be-9863-430d-9044-2c35ec14953b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='لا يوجد للمنشأة وثائق تأمين بسبب عدم الحاجه لها'])[1]/preceding::label[2]</value>
+      <webElementGuid>f3532aa3-f70e-430b-85fc-929d1e2c23f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/label[2]</value>
+      <webElementGuid>d5743097-836b-4721-8237-500248544a7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'لا' or . = 'لا')]</value>
+      <webElementGuid>bcdc25c0-c392-47fc-b290-3799b9286f3c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

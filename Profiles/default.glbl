@@ -7,7 +7,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'http://jadeertesting.suredemos.com/Account/Login_ChangeLanguage/?Language=lxdg%2B1NKHabC2BT23ZH2fw%3D%3D'</initValue>
-      <name>UAL</name>
+      <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -18,5 +18,10 @@
       <description></description>
       <initValue>'5BbLVu4RU9Ib6pZvh+yJOw=='</initValue>
       <name>SMEPW</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\\\Users\\\\andalosya\\\\Desktop\\\\double sign test.docx'</initValue>
+      <name>attachment</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

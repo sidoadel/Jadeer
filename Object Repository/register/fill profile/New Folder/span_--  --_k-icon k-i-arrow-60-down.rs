@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_--  --_k-icon k-i-arrow-60-down</name>
+   <tag></tag>
+   <elementGuidId>cab0d88d-07ce-4903-9fd8-5bcba2ba065f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.k-dropdown-wrap.k-state-default.k-state-hover.k-state-focused > span.k-select > span.k-icon.k-i-arrow-60-down</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='FormInsurance']/div/div/span/span/span[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>cd2f0eeb-64cb-425c-9817-0e32aa1151c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-icon k-i-arrow-60-down</value>
+      <webElementGuid>d9a7a65d-e152-4a19-bd33-d7e17b03fdbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FormInsurance&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-xs-12 col-md-6 col-lg-6&quot;]/span[@class=&quot;k-widget k-dropdown k-header form-control&quot;]/span[@class=&quot;k-dropdown-wrap k-state-default k-state-hover k-state-focused&quot;]/span[@class=&quot;k-select&quot;]/span[@class=&quot;k-icon k-i-arrow-60-down&quot;]</value>
+      <webElementGuid>d146e54b-9e69-4d97-a6b1-fb38b5d139ec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='FormInsurance']/div/div/span/span/span[2]/span</value>
+      <webElementGuid>e943e2c8-c8b7-4dd0-b9c1-72ffbb49917a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/span/span/span[2]/span</value>
+      <webElementGuid>13fb1a15-41ae-4dc7-a5b3-6832bcf404b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

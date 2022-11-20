@@ -29,34 +29,97 @@ WebUI.mouseOver(findTestObject('register/fill profile/header'), FailureHandling.
 
 WebUI.click(findTestObject('register/fill profile/Select prof'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('register/prev buttons/input_Select files_btn_Attachment_Prev'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('register/fill profile/Page_/span__k-select'))
+WebUI.delay(10)
 
-WebUI.click(findTestObject('register/fill profile/Page_/div__k-multiselect-wrap k-floatwrap'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/Page_/insurance Page_/label_no'))
 
-WebUI.click(findTestObject('register/fill profile/Page_/wakel'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/Page_/insurance Page_/span__insurance'))
 
-WebUI.click(findTestObject('register/fill profile/Page_/add wakel'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/Page_/insurance Page_/li_insurance'))
 
-WebUI.click(findTestObject('register/fill profile/Page_/add new wakel'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/Page_/input__btnSubmit_Insurance'))
 
-WebUI.setText(findTestObject('register/fill profile/Page_/input__AgentNameAr'), 'وكيل معتمد')
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('register/fill profile/Page_/input__AgentNameEn'), 'good')
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes'))
 
-WebUI.click(findTestObject('register/fill profile/Page_/save wakel'))
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy'))
 
-WebUI.setText(findTestObject('register/fill profile/Page_/input__txtfilterAgent'), 'لحوم', FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (1)'))
 
-WebUI.click(findTestObject('register/fill profile/Page_/label_ (1)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (2)'))
 
-WebUI.click(findTestObject('register/fill profile/save9'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (3)'))
 
-WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (4)'))
 
-WebUI.uploadFile(findTestObject('register/fill profile/Page_/input__file'), 'C:\\\\Users\\\\andalosya\\\\Desktop\\\\double sign test.docx', 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (5)'))
 
-WebUI.click(findTestObject('register/fill profile/Page_/save10'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (6)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (7)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (8)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (9)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (10)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (11)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (12)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (13)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (14)'))
+
+WebUI.click(findTestObject('register/fill profile/button_final'))
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('register/fill profile/New Folder//label_'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/Page_/label_'))
+
+WebUI.uploadFile(findTestObject('register/fill profile/New Folder/final Page_/Page_/input__fdUpload-138'), GlobalVariable.attachment)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/Page_/label_ - Copy'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/Page_/label_ - Copy (1)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/Page_/button_2'))
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementClickable(findTestObject('register/fill profile/New Folder/final Page_/Page_/Page_/label_final'), 3)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/Page_/Page_/label_scroll'))
+
+WebUI.uploadFile(findTestObject('register/fill profile/New Folder/final Page_/Page_/input__fdUpload-149'), GlobalVariable.attachment)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/Page_/label_ - Copy (3)'))
+
+WebUI.setText(findTestObject('register/fill profile/New Folder/final Page_/Page_/input_(QMS)_childitem.AnswerAr'), 'test')
+
+WebUI.setText(findTestObject('register/fill profile/New Folder/final Page_/Page_/input__childitem.AnswerAr'), 'test')
+
+WebUI.uploadFile(findTestObject('register/fill profile/New Folder/final Page_/Page_/input__fdUpload-157'), GlobalVariable.attachment)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/Page_/button_quality'))
+
+WebUI.scrollToElement(findTestObject('register/fill profile/New Folder/final Page_/Page_/Page_/label_final'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementClickable(findTestObject('register/fill profile/New Folder/final Page_/Page_/Page_/label_final'), 3)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/Page_/Page_/label_final'))
+
+WebUI.setText(findTestObject('register/fill profile/New Folder/final Page_/Page_/input__childitem.AnswerAr'), 'test')
+
+WebUI.uploadFile(findTestObject('register/fill profile/New Folder/final Page_/Page_/input__fdUpload-159'), GlobalVariable.attachment)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/Page_/Page_/label_final - Copy'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/Page_/input__Disclaimervalue'))
 
