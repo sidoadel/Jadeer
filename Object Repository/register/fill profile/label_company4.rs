@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lable contain</name>
+   <name>label_company4</name>
    <tag></tag>
-   <elementGuidId>10d07125-d2f0-4141-990a-d0c45a301883</elementGuidId>
+   <elementGuidId>96da6ce6-9e93-4910-a23b-b9a1c12c40c8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
          <value>div.col-md-12.col-lg-12.col-xs-12.col-sm-12.fl-right.radio-toolbar.no-padding-h.no-margin-h > label.padding10-radio</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'نعم فعلا' or . = 'نعم فعلا')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='CompanyDetails_Header6Div']/div[3]/div/div/label</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>60e30564-791e-41cf-bd57-156b8fabcdde</webElementGuid>
+      <webElementGuid>ffeb3333-0099-44ef-aab2-30925e49c1e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>rdIsOrganizationHaveContentscoreYes</value>
-      <webElementGuid>92e5a0b6-aede-41f8-9355-5e55052a8c15</webElementGuid>
+      <webElementGuid>90e6f5ba-2f14-45f1-84a8-7d3cf927ce41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>padding10-radio</value>
-      <webElementGuid>a05f6ea5-078a-4a45-b083-cdf434ffdd38</webElementGuid>
+      <webElementGuid>97d91560-6082-4c94-ac1e-41a37f38604d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,15 +46,15 @@
       <name>text</name>
       <type>Main</type>
       <value>نعم فعلا</value>
-      <webElementGuid>e4a08195-d93b-4ff3-8a97-8cd291125145</webElementGuid>
+      <webElementGuid>33525436-536d-489e-85ce-82af26595c55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CompanyDetails_Header6Div&quot;)/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;col-md-6 col-lg-6 col-xs-12 col-sm-12 form-group&quot;]/div[@class=&quot;col-md-12 col-lg-12 col-xs-12 col-sm-12 fl-right radio-toolbar no-padding-h no-margin-h&quot;]/label[@class=&quot;padding10-radio&quot;]</value>
-      <webElementGuid>ba633645-19bb-4bc5-bed2-d86b5c636dd3</webElementGuid>
+      <webElementGuid>ba258f64-5c31-44e0-88a3-3a58f80d36b1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='CompanyDetails_Header6Div']/div[3]/div/div/label</value>
-      <webElementGuid>fc1bc764-66c5-464a-8ee4-f610df08da1d</webElementGuid>
+      <webElementGuid>03d42464-e9bb-496e-b116-f67db65a615a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='هل منشآتك يوجد لها درجة في المحتوى المحلي؟'])[1]/following::label[1]</value>
-      <webElementGuid>0e4d27df-b665-40c9-adfb-1680f89be559</webElementGuid>
+      <webElementGuid>1fcbc8da-d884-4ddf-a99d-dfe1e97992b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='إجمالي عدد الموظفين'])[1]/following::label[2]</value>
-      <webElementGuid>d74bfaff-9249-4ba2-bfae-8bd4b21a58bd</webElementGuid>
+      <webElementGuid>69fb652a-a6f4-4da6-af45-667136538307</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='لا'])[2]/preceding::label[1]</value>
-      <webElementGuid>b3671800-f0b8-44ce-aca5-7f48e51ef455</webElementGuid>
+      <webElementGuid>b5026833-79f2-481a-b31e-8ba556d40a93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='درجة المحتوى المحلي'])[1]/preceding::label[2]</value>
-      <webElementGuid>6c48fc02-c85a-4276-821d-99dbf9970b0f</webElementGuid>
+      <webElementGuid>f0c087af-afb3-4125-b3a5-5d8e16372289</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/label</value>
-      <webElementGuid>16cf68ef-b9a6-4ff7-a769-8ecd8725b689</webElementGuid>
+      <webElementGuid>3365ed46-f7f7-4fde-850d-30f3134efb95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'نعم فعلا' or . = 'نعم فعلا')]</value>
-      <webElementGuid>1356674d-451f-4051-a432-55d516361d83</webElementGuid>
+      <webElementGuid>ef96f8f9-24e0-4e9c-b58b-7be03a868336</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

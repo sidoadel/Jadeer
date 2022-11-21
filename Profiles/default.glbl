@@ -24,4 +24,9 @@
       <initValue>'C:\\\\Users\\\\andalosya\\\\Desktop\\\\double sign test.docx'</initValue>
       <name>attachment</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'(//div[@onclick=\'TakeAction(this);\'])[1]'</initValue>
+      <name>company</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

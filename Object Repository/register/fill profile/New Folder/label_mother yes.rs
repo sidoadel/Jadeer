@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>has mother yes</name>
+   <name>label_mother yes</name>
    <tag></tag>
-   <elementGuidId>a3723fc6-6d8c-4145-a31e-f012ec3b76da</elementGuidId>
+   <elementGuidId>be6828fc-c84c-4551-9c9c-6d502274c8a9</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='CompanyHierarchyDiv']/div/div[3]/div[2]/label</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>div.col-sm-6.fl-right.radio-toolbar.pad-right-0.pad-left-0.pad-left-mob-0.pad-right-mob-0 > label.padding10-radio</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CompanyHierarchyDiv']/div/div[3]/div[2]/label</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>84bc9ba2-0cac-4c8f-8715-ef843096e7b6</webElementGuid>
+      <webElementGuid>33c00f15-27e2-4d9a-ad97-0843fe2f5e0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>rdTech_Orgz_ParentCompanyYes</value>
-      <webElementGuid>d3e7041b-04c3-46b2-9682-addfb763c046</webElementGuid>
+      <webElementGuid>6abc2ec1-552f-4128-8031-b64bbb5b9f60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>padding10-radio</value>
-      <webElementGuid>89d447a6-062b-4af2-852d-015fa3e38d7e</webElementGuid>
+      <webElementGuid>293885f9-752b-4f6e-bdec-8d90376bce21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,15 +46,15 @@
       <name>text</name>
       <type>Main</type>
       <value>نعم</value>
-      <webElementGuid>21e1f485-b74f-4d2e-a2ef-dce412e2c9cc</webElementGuid>
+      <webElementGuid>996013ac-23ff-4a14-92de-5fa3647fcf51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CompanyHierarchyDiv&quot;)/div[@class=&quot;bg-box-shadow&quot;]/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-sm-6 fl-right radio-toolbar pad-right-0 pad-left-0 pad-left-mob-0 pad-right-mob-0&quot;]/label[@class=&quot;padding10-radio&quot;]</value>
-      <webElementGuid>0131707b-6a5f-4168-87ee-c8cf756df654</webElementGuid>
+      <webElementGuid>4401887d-5732-42b7-85c6-7a16032039f7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='CompanyHierarchyDiv']/div/div[3]/div[2]/label</value>
-      <webElementGuid>e33ca189-29f0-40de-ae67-75731337c392</webElementGuid>
+      <webElementGuid>84caf2af-f9ad-4689-9ac2-b8f9256af887</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='هل لدى منشآتك شركة أم؟'])[1]/following::label[1]</value>
-      <webElementGuid>0057cbce-d4d2-4ea2-8af5-3d10331920fe</webElementGuid>
+      <webElementGuid>6b8a7d4a-3804-4af6-a1a5-d5dbbfdcbec7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='حقل وجود الشركة مطلوب'])[1]/following::label[2]</value>
-      <webElementGuid>fb7a85e4-53b1-497d-a179-4b8e0bed0d26</webElementGuid>
+      <webElementGuid>71d37777-c5e3-4f15-a6cc-e39eea1d36ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='لا'])[3]/preceding::label[1]</value>
-      <webElementGuid>641451e5-dd19-4a5d-a40a-83e9e46c681f</webElementGuid>
+      <webElementGuid>6cafa055-c935-4b4a-bde2-b04bb8bd34c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='اسم الشركة الام'])[1]/preceding::label[2]</value>
-      <webElementGuid>9e8c9c57-1a77-48d4-86a5-6bb1329a758c</webElementGuid>
+      <webElementGuid>182da65a-42c2-4e5e-93d3-c0c97fe0881f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='نعم']/parent::*</value>
-      <webElementGuid>e408997a-8c61-4438-ada2-f749977693f8</webElementGuid>
+      <webElementGuid>afb842f4-064d-43e0-8656-4e0f49cb2414</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[3]/div[2]/label</value>
-      <webElementGuid>90ed632b-ae5b-4b18-a27f-24b5c268ef9b</webElementGuid>
+      <webElementGuid>5116f424-ac93-43dc-9be8-4d79b1a1024c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'نعم' or . = 'نعم')]</value>
-      <webElementGuid>837977a0-3e35-48f9-a3b7-f3854c80e241</webElementGuid>
+      <webElementGuid>c1a49317-02da-4f93-99b1-fa977c84ac6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

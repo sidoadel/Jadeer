@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_yes</name>
+   <name>label_solve2</name>
    <tag></tag>
-   <elementGuidId>d33326d9-1238-46f7-9a7b-80b63a4e0e26</elementGuidId>
+   <elementGuidId>af2290cf-ba1f-4d5b-ba5b-40340466ce5a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//td[@id='tdControls']/span/label)[1]</value>
+         <value>(//td[@id='tdControls']/span/label[1])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>6a95029f-7e0e-4565-9462-57692b3df83e</webElementGuid>
+      <webElementGuid>27b17008-7f9a-411e-93d1-35164d11c4e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,23 +30,23 @@
       <name>class</name>
       <type>Main</type>
       <value>control-label padding10-radio</value>
-      <webElementGuid>69fb0b07-e68e-44f3-9002-501a849f0811</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>ItemID-83-نعم</value>
-      <webElementGuid>85a4ce67-cb72-4360-8766-589a10fecf21</webElementGuid>
+      <webElementGuid>97633463-33fa-4f18-8a1b-b7f638626f0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>ItemID-161-لا</value>
+      <webElementGuid>ecde6734-22b4-4adc-807b-f84e887cf24c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>نعم</value>
-      <webElementGuid>c521d34c-63a5-4dec-b962-8da5caf4d871</webElementGuid>
+      <value>لا</value>
+      <webElementGuid>727ed810-9d0c-407f-b706-f4c4d8ea5bde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,62 +54,62 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;QuestionnaireTbl&quot;)/tbody[1]/tr[@class=&quot;item&quot;]/td[@id=&quot;tdControls&quot;]/span[@class=&quot;fl-right radio-toolbar&quot;]/label[@class=&quot;control-label padding10-radio&quot;]</value>
-      <webElementGuid>2a08d997-4f27-40cb-9956-c3e4d1162c13</webElementGuid>
+      <webElementGuid>b91e7e4a-74d8-4057-a0df-39d33f85e40f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(//td[@id='tdControls']/span/label)[3]</value>
-      <webElementGuid>e1a54b20-192d-431b-aa10-971f3bb723aa</webElementGuid>
+      <value>(//td[@id='tdControls']/span/label[2])[2]</value>
+      <webElementGuid>3c42dd00-b028-4d54-9aa9-fb99f0fc27bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::label[2]</value>
-      <webElementGuid>b58998bb-0bba-4e8b-81de-b7d03d3a6b24</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='نعم'])[5]/following::label[1]</value>
+      <webElementGuid>da2c9453-e17d-42be-b95b-d43fc227382a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='لا'])[6]/following::label[2]</value>
-      <webElementGuid>92907356-d1a8-48af-ae7a-33ca2681fc67</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='هل يصدر نظام الإدارة البيئية (EMS) من قبل طرف ثالث؟'])[1]/following::label[3]</value>
+      <webElementGuid>ab3c3dec-d7fd-4092-b6f1-f75599be6fdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='لا'])[7]/preceding::label[1]</value>
-      <webElementGuid>0d54c2c8-76a8-4053-ae7e-ac3a78cb77e9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/preceding::label[1]</value>
+      <webElementGuid>e2447591-b6ce-4c08-867b-e8c41dfda1bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::label[2]</value>
-      <webElementGuid>34c44015-714e-4843-8f83-d84c6348e586</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اسم الجهة المصدرة:'])[1]/preceding::label[1]</value>
+      <webElementGuid>90d3fd6b-f4be-41a9-b4aa-af904595b4de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[2]/span/label</value>
-      <webElementGuid>d4a6d6e7-bba1-470a-acd7-c70dbf52dc34</webElementGuid>
+      <value>//tr[4]/td[2]/span/label[2]</value>
+      <webElementGuid>461c6843-61b6-4601-8a7f-0129a9f88d94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[(text() = 'نعم' or . = 'نعم')]</value>
-      <webElementGuid>15f57bcb-39e6-4683-9815-736ab19e1d99</webElementGuid>
+      <value>//label[(text() = 'لا' or . = 'لا')]</value>
+      <webElementGuid>8ada1fc6-cb50-49ff-80e4-8c23a2511a37</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

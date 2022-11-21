@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h5_</name>
+   <tag></tag>
+   <elementGuidId>1f3781fb-8ef4-4ed3-b289-1ad96b9b6115</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h5.panel-title.bg-header.no-padding-mob-v</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='QuestionnaireTab']/div/div/div/div/div/legend/h5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>e3392c24-35a7-4953-9efc-3adec1f7303f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>panel-title bg-header no-padding-mob-v</value>
+      <webElementGuid>e63c7a8c-8d04-4a83-a78e-ee39720c2564</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>استبيان سياسة الامتثال والمعايير التقنية </value>
+      <webElementGuid>254c637a-0b94-46e3-9828-aa4cc895d78a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;QuestionnaireTab&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;bg-box-shadow&quot;]/div[@class=&quot;row no-padding-mob-v&quot;]/div[@class=&quot;row no-padding-mob-v&quot;]/div[@class=&quot;row no-padding-mob-v&quot;]/legend[@class=&quot;text-semibold-1 no-padding-mob-v&quot;]/h5[@class=&quot;panel-title bg-header no-padding-mob-v&quot;]</value>
+      <webElementGuid>7905d60f-93da-4ea2-8947-8d14eaefa630</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='QuestionnaireTab']/div/div/div/div/div/legend/h5</value>
+      <webElementGuid>a25fbd27-7edf-4f47-a6ce-e6588436c5ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='حذف'])[5]/following::h5[1]</value>
+      <webElementGuid>d36871a5-2dbe-4337-96c8-316bd5ca5355</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تعديل'])[6]/following::h5[1]</value>
+      <webElementGuid>ab312833-d934-481e-b97d-812afc2c808b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='المسؤولية الاجتماعية للشركات'])[1]/preceding::h5[1]</value>
+      <webElementGuid>15688a80-c733-45cb-bb5b-3f74caa4325a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='نظام إدارة الصحة والسلامة'])[1]/preceding::h5[1]</value>
+      <webElementGuid>13d73ef0-c2d0-447e-8c33-11f42788eeaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div[3]/div/div/div/div/div/legend/h5</value>
+      <webElementGuid>bd536e77-2f57-4293-a1e8-0265c963ebef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = 'استبيان سياسة الامتثال والمعايير التقنية ' or . = 'استبيان سياسة الامتثال والمعايير التقنية ')]</value>
+      <webElementGuid>6892e5f3-07d9-43d6-bd59-d90a773891f6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

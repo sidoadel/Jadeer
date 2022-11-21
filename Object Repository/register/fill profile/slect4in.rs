@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select5 in</name>
+   <name>slect4in</name>
    <tag></tag>
-   <elementGuidId>48cbcde0-3197-41d3-aedb-5db69949b57e</elementGuidId>
+   <elementGuidId>45fd73a4-1082-45f2-8b0f-80c6be15721e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='txtCompanyHierarchy_InCorporationCountry_listbox']/li[10]</value>
+         <key>CSS</key>
+         <value>#ddlCompanyPresence_listbox > li.k-item</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//ul[@id='ddlCompanyPresence_listbox']/li</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>ed5155e3-da3a-4884-a271-c66490d19f7a</webElementGuid>
+      <webElementGuid>b754a8cf-16dc-4cd1-a9cb-bc08178ccd8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +30,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>bfbf15af-4208-4646-807c-13fedc8cebb2</webElementGuid>
+      <webElementGuid>d3e48a08-39d7-4ec8-91d7-761431c8af39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +38,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>af2f97c3-c777-4399-a99b-fc31b4c962d7</webElementGuid>
+      <webElementGuid>305eacb7-fe67-4afe-aa23-4953d5fb301b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +46,7 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>c83eced6-b718-40b8-8fca-9c6e5208df3f</webElementGuid>
+      <webElementGuid>d55f5308-5a5a-4c8d-9bdd-008b964f7a25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>k-item</value>
-      <webElementGuid>ce1a2ece-248b-4f12-8d5c-2628f44aa8f2</webElementGuid>
+      <webElementGuid>a147082d-c624-4c48-b305-35c397308024</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,94 +62,94 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a467e59e-2199-438b-9767-747a612864ed</webElementGuid>
+      <webElementGuid>a8fd8b66-9ec5-411d-a37e-b0ffeaa80c64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-offset-index</name>
       <type>Main</type>
-      <value>9</value>
-      <webElementGuid>7fcc3bf9-99ca-4148-9d46-61b850ac8b25</webElementGuid>
+      <value>0</value>
+      <webElementGuid>54d42144-035e-4bbb-83b2-a3a2981b00e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>الأرجنتين</value>
-      <webElementGuid>17c80233-fb07-42c7-8263-1eeb76eac0c3</webElementGuid>
+      <value>عالمية</value>
+      <webElementGuid>524006f6-1e08-4d82-b9ea-3df1912010b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txtCompanyHierarchy_InCorporationCountry_listbox&quot;)/li[@class=&quot;k-item&quot;]</value>
-      <webElementGuid>4d12c6e5-f113-4d2e-9435-194ecb1ec7a4</webElementGuid>
+      <value>id(&quot;ddlCompanyPresence_listbox&quot;)/li[@class=&quot;k-item&quot;]</value>
+      <webElementGuid>b9c41228-4ccd-4de6-a09d-23781dd0876c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='txtCompanyHierarchy_InCorporationCountry_listbox']/li[10]</value>
-      <webElementGuid>ac4a5611-4cb3-42ac-a5e3-4be5e0d7646e</webElementGuid>
+      <value>//ul[@id='ddlCompanyPresence_listbox']/li</value>
+      <webElementGuid>d57601e7-c803-4d9f-a9f5-4763c67edb28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='أنتيغوا وبربودا'])[1]/following::li[1]</value>
-      <webElementGuid>2a31bd75-6bba-40b8-87d6-04070108646c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='--اختيار وجود الشركة--'])[2]/following::li[1]</value>
+      <webElementGuid>135b49ac-04a2-4b13-84ec-d90bab97cd56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='القارة القطبية الجنوبية'])[1]/following::li[2]</value>
-      <webElementGuid>383c649e-ab2f-46e3-939f-0db79b949b85</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No data found.'])[4]/following::li[1]</value>
+      <webElementGuid>4e89608b-fa48-49a0-8601-80a127b1ee66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='أرمينيا'])[1]/preceding::li[1]</value>
-      <webElementGuid>bae7020c-e2cb-4e87-b5c4-ab2aa23a41de</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='محلية'])[1]/preceding::li[1]</value>
+      <webElementGuid>1bd14f13-b5f7-4201-9ce6-8c96de3b0561</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='أروبا'])[1]/preceding::li[2]</value>
-      <webElementGuid>5bf07c19-f726-40ea-9296-74c1c8562ff8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No data found.'])[5]/preceding::li[2]</value>
+      <webElementGuid>89a4b3a9-9fbb-4b29-b466-6b8aafe5db56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='الأرجنتين']/parent::*</value>
-      <webElementGuid>227beea5-79b4-43b5-8ee7-fc5a4f8c8346</webElementGuid>
+      <value>//*/text()[normalize-space(.)='عالمية']/parent::*</value>
+      <webElementGuid>7dae6037-bf95-4765-bb23-1324b2518fcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[15]/div/div[3]/ul/li[10]</value>
-      <webElementGuid>becc8a7a-8094-4243-ae53-e86f54aadf9e</webElementGuid>
+      <value>//div[15]/div/div[3]/ul/li</value>
+      <webElementGuid>ec60a3f3-4d41-4cfd-ac72-90e309db6aa4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//li[(text() = 'الأرجنتين' or . = 'الأرجنتين')]</value>
-      <webElementGuid>da3ba9eb-9787-42e6-8520-587842bdf0f1</webElementGuid>
+      <value>//li[(text() = 'عالمية' or . = 'عالمية')]</value>
+      <webElementGuid>ae4a074c-807a-4871-abd2-3babb4a79c5e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

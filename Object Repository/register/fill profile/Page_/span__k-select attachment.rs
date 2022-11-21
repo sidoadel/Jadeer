@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span__k-select attachment</name>
+   <tag></tag>
+   <elementGuidId>d84986b2-f25c-4d6d-a402-98f0dbf4b752</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.k-picker-wrap.k-state-default.k-state-focused > span.k-select</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@id='AttachmentDetailsgrid_active_cell']/div/span/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d6e8f8b0-9e07-4eb7-895f-857230b19b80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>270bb2b0-a3b6-46d3-a2c2-54573307c272</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-select</value>
+      <webElementGuid>269aa1c6-53ec-4f60-8ff8-6a27ff162d6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>ddc0847d-c2dd-472e-a1e4-fda1d003d782</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>89dd7f85-7195-4f84-ab9b-3efdfc97d591</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;AttachmentDetailsgrid_active_cell&quot;)/div[@class=&quot;pull-left mr-10 br-less&quot;]/span[@class=&quot;k-widget k-datepicker k-header expdatepicker&quot;]/span[@class=&quot;k-picker-wrap k-state-default k-state-focused&quot;]/span[@class=&quot;k-select&quot;]</value>
+      <webElementGuid>2956509d-3252-429d-a035-8e8ffd761d74</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='AttachmentDetailsgrid_active_cell']/div/span/span/span</value>
+      <webElementGuid>9eac4e84-b0b1-4c0c-a018-4ed2b9ce721c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='شهادة اثبات وكالة'])[1]/following::span[3]</value>
+      <webElementGuid>1f843286-b896-49da-9f40-ded57764642a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::span[3]</value>
+      <webElementGuid>0854e288-dcab-4315-8f52-666434c6b975</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select files...'])[1]/preceding::span[2]</value>
+      <webElementGuid>d72c3401-f31f-41b0-93d9-bb969a35bd12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='شهادة من الهيئة الملكية للجبيل وينبع'])[1]/preceding::span[3]</value>
+      <webElementGuid>027d7f84-fef5-47a5-a483-b273690e9caa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/div/span/span/span</value>
+      <webElementGuid>8442cd39-c15f-447e-850c-46d5e710a6e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

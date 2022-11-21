@@ -3,15 +3,15 @@
    <description></description>
    <name>input__txtCompanyHierarchy_City</name>
    <tag></tag>
-   <elementGuidId>5f11ef3d-36a3-4cbd-9756-c85d909355f8</elementGuidId>
+   <elementGuidId>b0fcd97e-1c34-437d-beba-a6b098a137ab</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='txtCompanyHierarchy_City']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#txtCompanyHierarchy_City</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='txtCompanyHierarchy_City']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a38c572f-6acd-4286-b3b4-de5940251f5c</webElementGuid>
+      <webElementGuid>2920ea84-2d28-4e60-9ffd-85b54689a608</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control k-input</value>
-      <webElementGuid>2f8786b6-9fd6-4f12-ba92-b8a677dfc0f4</webElementGuid>
+      <webElementGuid>bbe812ff-d6cc-4fa3-bb92-5470770edb3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txtCompanyHierarchy_City</value>
-      <webElementGuid>507b3947-6156-44c1-8dba-24b1519c7a24</webElementGuid>
+      <webElementGuid>1c15d794-0f04-4221-b7de-445d7b3e1dd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>txtCompanyHierarchy_City</value>
-      <webElementGuid>fa0aee23-c615-4e93-b261-d5a11c260c40</webElementGuid>
+      <webElementGuid>1ab5c526-fd48-4d91-b5a2-93f96ddab5b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>7e6c3dda-618f-494a-bb51-8542ef705275</webElementGuid>
+      <webElementGuid>e4a7cf94-49a3-4087-9322-6abf2c6c3697</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-role</name>
       <type>Main</type>
       <value>autocomplete</value>
-      <webElementGuid>e95d99a1-7f1f-470d-9f49-1e1dc41381c8</webElementGuid>
+      <webElementGuid>94f85e4a-6eee-4b42-a98b-616db5b36bb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>94229ac2-9b7a-495c-81c4-a12a8eb27ae3</webElementGuid>
+      <webElementGuid>70004537-0d3f-4608-8db7-8e46a3fc2b05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>e117a4ca-ea6f-4813-a5ba-9aa12475f664</webElementGuid>
+      <webElementGuid>af0edd53-0420-4a9f-a12a-bc283f10db5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>f5ac1ab4-49e7-4861-9cd7-6fd6a254d76e</webElementGuid>
+      <webElementGuid>ac474c63-58fc-408a-b82b-83d69383b7a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>2a65ca2c-8df7-4a59-a128-44b771f182cb</webElementGuid>
+      <webElementGuid>589005fd-0a52-47b0-80e9-bccec9cf9062</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4fb22e45-bf72-4c26-8c3e-a558ad7eae5b</webElementGuid>
+      <webElementGuid>db406557-3a60-4f24-9a69-8635187fc5f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>aria-owns</name>
       <type>Main</type>
       <value>txtCompanyHierarchy_City_listbox</value>
-      <webElementGuid>705e7a90-6de7-481c-bbec-5887a91c0459</webElementGuid>
+      <webElementGuid>e63f0ac0-41ce-4ca6-949f-0aea54306676</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>c4f6f060-f6dd-4b30-aade-f02510ed2898</webElementGuid>
+      <webElementGuid>208696f6-208a-4a8b-94f0-91455d152626</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>aria-busy</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8db69473-354e-4994-b9ad-2df5662f9d83</webElementGuid>
+      <webElementGuid>7519ea53-bb74-4a07-aab3-10d1d46af6b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txtCompanyHierarchy_City&quot;)</value>
-      <webElementGuid>6297428b-ed9e-480b-835c-ef524658dc22</webElementGuid>
+      <webElementGuid>7b866998-2763-4496-b12d-72fc58812fed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txtCompanyHierarchy_City']</value>
-      <webElementGuid>588ae9c7-ef7d-446b-b632-7b936c8c825a</webElementGuid>
+      <webElementGuid>ef3f47f3-2f01-4590-8428-7393bde006ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +150,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='divCompanyHierarchyDetails']/div[3]/div/div/span/input</value>
-      <webElementGuid>19e77486-8d0c-4187-a435-ee8d84f8f011</webElementGuid>
+      <webElementGuid>da728057-a81e-4c1a-8a62-5740fa142f51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +158,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/span/input</value>
-      <webElementGuid>4d9c4120-3c92-4188-aba0-66a391e954b5</webElementGuid>
+      <webElementGuid>21cee8a1-bc31-4a2e-a983-4d08792dee57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,6 +166,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'txtCompanyHierarchy_City' and @name = 'txtCompanyHierarchy_City' and @type = 'text']</value>
-      <webElementGuid>8da38497-ff70-466b-b3f8-37a8e4973275</webElementGuid>
+      <webElementGuid>c64cf909-f45e-4471-bb24-929d075bb8bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>add wakel</name>
+   <name>open wakel</name>
    <tag></tag>
-   <elementGuidId>7a15f31a-f593-4b76-8865-0041a2a55624</elementGuidId>
+   <elementGuidId>4400d2c3-8a39-4ded-98c2-611e8f3b1938</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='btnCollapse2']/span</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#btnCollapse2 > span.glyphicon.glyphicon-plus</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='btnCollapse2']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>57445589-e962-4e35-978d-6f39f4e3fb79</webElementGuid>
+      <webElementGuid>70b57a13-9ff9-44c4-a68f-e0136c733189</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>glyphicon glyphicon-plus</value>
-      <webElementGuid>88416358-a71c-456d-9eb8-67d3b1da4b3f</webElementGuid>
+      <webElementGuid>eda3d324-39fa-49bd-941b-c66e65fa5fdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btnCollapse2&quot;)/span[@class=&quot;glyphicon glyphicon-plus&quot;]</value>
-      <webElementGuid>86efbfa4-7a4b-40b6-908a-7be6e31cc461</webElementGuid>
+      <webElementGuid>ff182d95-56b9-430f-b79d-378f784221aa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='btnCollapse2']/span</value>
-      <webElementGuid>58a7868d-9075-4e36-8d98-88cce8aa6e12</webElementGuid>
+      <webElementGuid>180f1739-fbd0-46cd-a4eb-31ee131448b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/h5/div/span</value>
-      <webElementGuid>232dfdb2-13b6-46b4-ab79-ea6f97a9c7f2</webElementGuid>
+      <webElementGuid>c49d90c2-936c-463c-ba0d-a7a15ef1cae5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -29,6 +29,10 @@ WebUI.mouseOver(findTestObject('register/fill profile/header'), FailureHandling.
 
 WebUI.click(findTestObject('register/fill profile/Select prof'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(30, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('register/fill profile/input__CompanyName'), 10)
+
 WebUI.setText(findTestObject('register/fill profile/input__CompanyName'), 'test company', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('register/fill profile/input__BrandName'), 'brand', FailureHandling.STOP_ON_FAILURE)
@@ -76,11 +80,11 @@ WebUI.click(findTestObject('register/fill profile/Page_/input__btn_ZAKAT_Save'),
 
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('register/fill profile/Page_/focus1'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('register/fill profile/Page_/lable contain'))
+WebUI.waitForElementVisible(findTestObject('register/fill profile/label_company4'), 5)
 
-WebUI.click(findTestObject('register/fill profile/Page_/lable contain'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('register/fill profile/label_company4'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('register/fill profile/Page_/input__LocalContentScore'), '4', FailureHandling.STOP_ON_FAILURE)
 
@@ -142,66 +146,69 @@ WebUI.setText(findTestObject('register/fill profile//Ownership_Mobile'), '300411
 
 WebUI.click(findTestObject('register/fill profile/Update'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
-
 WebUI.scrollToElement(findTestObject('register/fill profile/Page_/focus2'), 5)
 
 WebUI.focus(findTestObject('register/fill profile/Page_/input__ManagementDetails'))
 
-WebUI.click(findTestObject('register/fill profile/Page_/input__ManagementDetails'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('register/fill profile/Page_/input__ManagementDetails'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('register/fill profile/Page_/input__OwnershipDetailsName'), 'Ashraf fawzy', FailureHandling.OPTIONAL)
+WebUI.setText(findTestObject('register/fill profile/Page_/input__OwnershipDetailsName'), 'Ashraf fawzy', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('register/fill profile/Page_/input__OwnershipDetailsPosition'), 'مهندس مدني', FailureHandling.OPTIONAL)
+WebUI.setText(findTestObject('register/fill profile/Page_/input__OwnershipDetailsPosition'), 'مهندس مدني', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('register/fill profile/Page_/input__OwnershipDetailsEmail'), 's@gmail.com', FailureHandling.OPTIONAL)
+WebUI.setText(findTestObject('register/fill profile/Page_/input__OwnershipDetailsEmail'), 's@gmail.com', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('register/fill profile/Page_/select3'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('register/fill profile/Page_/select3'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('register/fill profile/li_(61)'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('register/fill profile/li_(61)'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('register/fill profile/Page_/input__OwnershipDetailsPhone'), '300411699', FailureHandling.OPTIONAL)
+WebUI.setText(findTestObject('register/fill profile/Page_/input__OwnershipDetailsPhone'), '300411699', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('register/fill profile/Page_/Save8'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('register/fill profile/Page_/Page_//select4'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/select4'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('register/fill profile/Page_/Page_//select 4 in'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/slect4in'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('register/fill profile/Page_/Page_//has mother yes'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/New Folder/label_mother yes'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('register/fill profile/Page_/Page_//input__CompanyHierarchy_ParentCompanyName'), 'الشركه العربيه', 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('register/fill profile/input__CompanyHierarchy_ParentCompanyName'), 2)
 
-WebUI.click(findTestObject('register/fill profile/Page_/Page_//select5'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('register/fill profile/input__CompanyHierarchy_ParentCompanyName'), 'الشركه العربيه', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('register/fill profile/Page_/Page_//select5 in'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/New Folder/select5'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('register/fill profile/Page_/Page_//input__txtCompanyHierarchy_City'), 'جده', FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/New Folder/5in'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('input__txtCompanyHierarchy_City'), 'جده', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('register/fill profile/Page_/save9'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('null'), 'وكيل', false)
 
-WebUI.click(findTestObject('register/fill profile/Page_/add nashat'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('register/fill profile/Page_/wakel'), 'وكيل', false)
+WebUI.click(findTestObject('register/fill profile/Page_/add new wakel'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('register/fill profile/Page_/add wakel'))
+WebUI.setText(findTestObject('register/fill profile/Page_/input__AgentNameAr'), 'وكيل معتمد')
 
-WebUI.setText(findTestObject('register/fill profile//search for nashat'), 'لحوم', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('register/fill profile/Page_/input__AgentNameEn'), 'good')
 
-WebUI.click(findTestObject('register/fill profile//label_'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/Page_/save wakel'))
+
+WebUI.setText(findTestObject('register/fill profile/Page_/input__txtfilterAgent'), 'لحوم', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.getText(findTestObject('register/fill profile//label_'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('register/fill profile/save9'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.focus(findTestObject('register/fill profile/Page_/Page_/Page_/span__k-icon k-i-calendar attachment'))
+WebUI.focus(findTestObject('null'))
 
-WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/span__k-icon k-i-calendar attachment'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/a_4'))
 
@@ -254,4 +261,94 @@ WebUI.uploadFile(findTestObject('register/fill profile/Page_/Page_/Page_/Page_/i
 WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/Page_/save mony'))
 
 WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/Page_/save11'))
+
+WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/Page_/insurance Page_/label_no'))
+
+WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/Page_/insurance Page_/span__insurance'))
+
+WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/Page_/insurance Page_/li_insurance'))
+
+WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/Page_/input__btnSubmit_Insurance'))
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (1)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (2)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (3)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (4)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (5)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (6)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (7)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (8)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (9)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (10)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (11)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (12)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (13)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (14)'))
+
+WebUI.click(findTestObject('register/fill profile/button_final'))
+
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('register/fill profile/New Folder//label_'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_'))
+
+WebUI.uploadFile(findTestObject('register/fill profile/New Folder/final Page_/input__fdUpload-138'), GlobalVariable.attachment)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_ - Copy'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_ - Copy (1)'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/button_2'))
+
+WebUI.scrollToElement(findTestObject('register/fill profile/New Folder/final Page_/h5_'), 2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementClickable(findTestObject('register/fill profile/New Folder/final Page_/label_solve'), 2)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_solve'))
+
+WebUI.uploadFile(findTestObject('register/fill profile/New Folder/final Page_/input__fdUpload-149'), GlobalVariable.attachment)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_ - Copy (3)'))
+
+WebUI.setText(findTestObject('register/fill profile/New Folder/final Page_/input_(QMS)_childitem.AnswerAr'), 'test')
+
+WebUI.setText(findTestObject('register/fill profile/New Folder/final Page_/input__childitem.AnswerAr'), 'test')
+
+WebUI.uploadFile(findTestObject('register/fill profile/New Folder/final Page_/input__fdUpload-157'), GlobalVariable.attachment)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/button_quality'))
+
+WebUI.scrollToElement(findTestObject('register/fill profile/New Folder/final Page_/h5_'), 2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_solve2'))
+
+WebUI.setText(findTestObject('register/fill profile/New Folder/final Page_/input__childitem.AnswerAr'), 'test')
+
+WebUI.uploadFile(findTestObject('register/fill profile/New Folder/final Page_/input__fdUpload-159'), GlobalVariable.attachment)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_final - Copy'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/input__Disclaimervalue'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/Send'))
 

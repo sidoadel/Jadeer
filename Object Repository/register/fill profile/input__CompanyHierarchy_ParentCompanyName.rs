@@ -3,15 +3,15 @@
    <description></description>
    <name>input__CompanyHierarchy_ParentCompanyName</name>
    <tag></tag>
-   <elementGuidId>29b7aa11-7743-4c46-88f6-3bb3ea50f2ba</elementGuidId>
+   <elementGuidId>74a34917-1321-4daf-84e4-30db9323bf3b</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='txtCompanyHierarchy_ParentCompanyName']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#txtCompanyHierarchy_ParentCompanyName</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='txtCompanyHierarchy_ParentCompanyName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>adf71b77-af6e-4577-b818-bdb60d0689ae</webElementGuid>
+      <webElementGuid>6dcb5c8c-5461-42d1-822f-992bd9e191a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>0ca5ce42-7b38-459c-9ef8-a5d574c108ef</webElementGuid>
+      <webElementGuid>51c77106-3e12-4d72-bd69-ba6fc9aa51c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txtCompanyHierarchy_ParentCompanyName</value>
-      <webElementGuid>005d60d3-2bed-4107-ac87-4f4a49ad4ede</webElementGuid>
+      <webElementGuid>bbea8c2d-6fe6-41d2-bd0a-cedc39f9457e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>1fd5aa8d-c958-4f46-a302-c89fb87765f1</webElementGuid>
+      <webElementGuid>9f5b2d61-c6ce-48c1-a014-58fadf19915f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>CompanyHierarchy_ParentCompanyName</value>
-      <webElementGuid>bc1f6062-b6ce-4a12-973e-9ffa192df90a</webElementGuid>
+      <webElementGuid>158723e3-d1a5-44f3-96f8-dd1560f31742</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>اسم الشركة الام</value>
-      <webElementGuid>49551cf3-537a-478b-8b13-7ca26446d3f7</webElementGuid>
+      <webElementGuid>657dfaab-0245-495b-a5ca-023710cc96e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>d5b584f4-ffcd-4b5e-8812-0901a2229be6</webElementGuid>
+      <webElementGuid>dd3b13d1-18f6-493a-83db-511c9e43843c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>a8a709dd-2ced-42b9-b870-fea117a9002d</webElementGuid>
+      <webElementGuid>de64c23f-5423-410c-9621-98c5f12db280</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txtCompanyHierarchy_ParentCompanyName&quot;)</value>
-      <webElementGuid>f40563f7-ac82-4aa2-888d-30fef4038aec</webElementGuid>
+      <webElementGuid>3b2085b2-c926-4dc5-931d-9cb7d8d0f32b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txtCompanyHierarchy_ParentCompanyName']</value>
-      <webElementGuid>d64d9fef-5cec-4235-bbf3-7070b9f9de5b</webElementGuid>
+      <webElementGuid>63715a5f-18f4-4e1c-b25b-78471b9de975</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='divCompanyHierarchyDetails']/div/div/div/input</value>
-      <webElementGuid>3b73ccf0-516e-4880-a4af-6f66f52c76b6</webElementGuid>
+      <webElementGuid>d8944235-9eac-41e1-aad5-cf0ef668c216</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/input</value>
-      <webElementGuid>fa149445-29d3-43b3-8f48-162c235a6936</webElementGuid>
+      <webElementGuid>8b4fafcc-1277-4b9b-8d18-2c1ac3caf0c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'txtCompanyHierarchy_ParentCompanyName' and @name = 'CompanyHierarchy_ParentCompanyName' and @placeholder = 'اسم الشركة الام' and @type = 'text']</value>
-      <webElementGuid>263ba2f7-0c6e-4359-8863-cedc86501586</webElementGuid>
+      <webElementGuid>810cac59-a86f-4498-9664-3e10dc36ccbb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

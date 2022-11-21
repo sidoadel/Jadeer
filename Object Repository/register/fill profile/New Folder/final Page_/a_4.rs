@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//div[@id='1bf9d8e8-48e4-4a8d-81b9-270f57765b2e']/table/tbody/tr[6]/td/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and @title = 'Sunday, December 04, 2022' and (text() = '4' or . = '4')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>349422a7-ca63-4734-8315-4ea81e7a72e9</webElementGuid>
+      <webElementGuid>f248f4cb-8276-4160-b067-c0d099a842a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>bba93061-8087-4089-9e03-27c936b46503</webElementGuid>
+      <webElementGuid>999b4731-6416-4167-a040-dc570775aa7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>k-link</value>
-      <webElementGuid>f1c62327-ac3c-4cb1-8da0-4d05fa8f838e</webElementGuid>
+      <webElementGuid>c239319f-2ded-4b9e-af12-9afcbd485d89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>b3a5a561-3db4-4cf7-81b1-1c34fdd74dcf</webElementGuid>
+      <webElementGuid>29902cd4-39fb-4e73-a9fe-2bcca676a965</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>data-value</name>
       <type>Main</type>
       <value>2022/11/4</value>
-      <webElementGuid>5320310d-acbf-4f8a-976e-3a2305920162</webElementGuid>
+      <webElementGuid>9b3cfb60-1e38-4166-a7ca-a1ddaeb2d66e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Sunday, December 04, 2022</value>
-      <webElementGuid>b4d0e777-f601-436f-80f3-415534a731e2</webElementGuid>
+      <webElementGuid>de0ec010-f212-486a-ab62-ee418ef887ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>4</value>
-      <webElementGuid>6cfde379-b2f8-48b6-85e7-07c4b71d8773</webElementGuid>
+      <webElementGuid>462873dc-6623-4e55-8665-3b758240dc9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;1bf9d8e8-48e4-4a8d-81b9-270f57765b2e&quot;)/table[@class=&quot;k-content k-month&quot;]/tbody[1]/tr[6]/td[@class=&quot;k-other-month k-weekend k-state-hover&quot;]/a[@class=&quot;k-link&quot;]</value>
-      <webElementGuid>5fdcce31-de59-41e8-98e6-455e23b0bfe0</webElementGuid>
+      <webElementGuid>6f67b6bb-d0b0-4576-9159-bb20f7380239</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='1bf9d8e8-48e4-4a8d-81b9-270f57765b2e']/table/tbody/tr[6]/td/a</value>
-      <webElementGuid>e3608f4b-e328-4068-a8af-69bf6c063f4f</webElementGuid>
+      <webElementGuid>7604eb6f-60d2-4d62-ba09-7937702530c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'4')])[23]</value>
-      <webElementGuid>b238a980-2ea6-416f-bb6e-c68ca3ed2ae8</webElementGuid>
+      <webElementGuid>77018a49-b3e8-42e3-a6ea-11aeed6163f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[6]/following::a[36]</value>
-      <webElementGuid>b3eeea88-83e8-44f0-8fa7-f68ea9ea5c44</webElementGuid>
+      <webElementGuid>ce5e2cef-9919-4012-bf55-7df85ee97a77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[6]/following::a[36]</value>
-      <webElementGuid>8facc5a3-350a-4478-9ade-75828cdf7c8c</webElementGuid>
+      <webElementGuid>940bc089-404f-4819-818b-aa5343d1c9fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[302]</value>
-      <webElementGuid>66afa4bc-8b86-4510-ab39-932531b496be</webElementGuid>
+      <webElementGuid>b8ecc8d4-dc75-40b5-8124-2f4104e03a36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[119]/div/div/table/tbody/tr[6]/td/a</value>
-      <webElementGuid>15711c40-919e-44a9-926c-bff43b1d0a07</webElementGuid>
+      <webElementGuid>525afc67-f208-466c-bca0-b91b8dec2115</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and @title = 'Sunday, December 04, 2022' and (text() = '4' or . = '4')]</value>
-      <webElementGuid>cdd1674e-24de-4117-ab55-45480743e3da</webElementGuid>
+      <webElementGuid>e9bddda8-93b3-414f-aea0-7a8114cd059b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

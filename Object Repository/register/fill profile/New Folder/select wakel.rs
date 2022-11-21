@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>wakel</name>
+   <name>select wakel</name>
    <tag></tag>
-   <elementGuidId>8a615a6e-e290-4781-a49e-35f7852b23a0</elementGuidId>
+   <elementGuidId>1b0fa8e7-0542-46d0-9af1-961484f79ae5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#a6f516f9-e126-4f6a-a4bf-74bf9e2b26ba</value>
+         <value>li.k-item.k-state-hover</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='a6f516f9-e126-4f6a-a4bf-74bf9e2b26ba']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//li[(text() = 'وكيل' or . = 'وكيل')]</value>
+         <value>//ul[@id='ddlSMEClassifications_listbox']/li[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>c0e1562d-f453-493c-a259-8d84416cbd8d</webElementGuid>
+      <webElementGuid>1a735f50-5559-4761-ad34-7bbde23869b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +30,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>0776cc9a-c98c-4852-b1a1-621eba2979a9</webElementGuid>
+      <webElementGuid>02320077-72d3-4588-bbc8-b396a8e7a694</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +38,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>cff4baef-04f1-497d-b937-5d0409018c26</webElementGuid>
+      <webElementGuid>a1085cca-5270-419d-849a-2650fb2bce00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,15 +46,15 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>6d0dddd7-70a8-439e-a663-ee022e5f75cc</webElementGuid>
+      <webElementGuid>b32c5332-656e-41f0-afc3-afb62b98ef7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>k-item k-state-focused k-state-hover</value>
-      <webElementGuid>c0e56307-5326-491c-adfd-f90ccca4960d</webElementGuid>
+      <value>k-item k-state-hover</value>
+      <webElementGuid>d2dc7cf7-6afb-49f5-ab7f-a7384995a0f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +62,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b13a9334-edd4-4f3b-9c72-9f73ff6899a9</webElementGuid>
+      <webElementGuid>edaec08d-a586-4de5-aaf6-f1740171788f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,15 +70,7 @@
       <name>data-offset-index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>d99fc083-42b4-4290-bb9e-5ce7246f3bb0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>a6f516f9-e126-4f6a-a4bf-74bf9e2b26ba</value>
-      <webElementGuid>2a2a46ee-705f-42e7-8fa0-2cd908c34b00</webElementGuid>
+      <webElementGuid>680ef739-61ae-4b41-8ba3-0a12f41ba56f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -90,31 +78,23 @@
       <name>text</name>
       <type>Main</type>
       <value>وكيل</value>
-      <webElementGuid>70f2a090-ae58-43f2-95d9-b50b4c76418e</webElementGuid>
+      <webElementGuid>f2a727a1-4f69-4599-8790-781ed3e4f3b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;a6f516f9-e126-4f6a-a4bf-74bf9e2b26ba&quot;)</value>
-      <webElementGuid>7e6be499-2128-41ed-b6e7-7b0e1af569f6</webElementGuid>
+      <value>id(&quot;ddlSMEClassifications_listbox&quot;)/li[@class=&quot;k-item k-state-hover&quot;]</value>
+      <webElementGuid>0ab6350d-c6c4-4c55-98ee-9837f9c1906d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//li[@id='a6f516f9-e126-4f6a-a4bf-74bf9e2b26ba']</value>
-      <webElementGuid>e7331de1-0ea6-4d6b-ae91-b0ecbe05ed8d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='ddlSMEClassifications_listbox']/li[2]</value>
-      <webElementGuid>3457c4d1-71c0-40af-886f-57c5cfaacd0f</webElementGuid>
+      <webElementGuid>a387a339-7127-488e-a6c3-b9de6f5b77ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='مصنع'])[2]/following::li[1]</value>
-      <webElementGuid>2b174c15-5f74-4508-8bee-c3d568cf8831</webElementGuid>
+      <webElementGuid>88e038cc-e064-409f-9ffc-a5ca48ace659</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No data found.'])[6]/following::li[2]</value>
-      <webElementGuid>43c30ad6-d3e7-4a60-b604-8c3ed2a17403</webElementGuid>
+      <webElementGuid>9719653c-5d65-47a9-bd1d-f565c8ecc72e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='موزع'])[2]/preceding::li[1]</value>
-      <webElementGuid>e385b2a8-9891-4263-8346-7ecaf9722deb</webElementGuid>
+      <webElementGuid>e902c893-9002-42e4-bd48-76c685c2e7eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='مورد'])[2]/preceding::li[2]</value>
-      <webElementGuid>c3480bbd-d85c-4a21-bcb9-487e4c4425eb</webElementGuid>
+      <webElementGuid>6fa30268-2409-4f76-8aa0-fdf36a2e7858</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,14 +134,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[18]/div/div[2]/ul/li[2]</value>
-      <webElementGuid>52df42c7-ed8a-4186-acd6-95f1c8a095d7</webElementGuid>
+      <webElementGuid>431a4536-47ea-4d8a-be2d-3fabda56b8c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//li[@id = 'a6f516f9-e126-4f6a-a4bf-74bf9e2b26ba' and (text() = 'وكيل' or . = 'وكيل')]</value>
-      <webElementGuid>267f6b9d-8643-412a-a10c-59a2afabd7c3</webElementGuid>
+      <value>//li[(text() = 'وكيل' or . = 'وكيل')]</value>
+      <webElementGuid>f58c2c9d-8f25-49b5-8797-39e8a45d5357</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

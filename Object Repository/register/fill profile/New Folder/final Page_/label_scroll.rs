@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>(//td[@id='tdControls']/span/label)[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'نعم' or . = 'نعم')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>6abaf0f8-607c-4893-afc4-1b475d852c56</webElementGuid>
+      <webElementGuid>106ddcee-e75a-43b5-841d-592be37d5bbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>control-label padding10-radio</value>
-      <webElementGuid>3481d520-7bd1-4af8-bc1d-d7687f72b30c</webElementGuid>
+      <webElementGuid>2218f4a8-ca5b-4d3b-a0d3-09e4acac5716</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>for</name>
       <type>Main</type>
       <value>ItemID-150-نعم</value>
-      <webElementGuid>a09181c3-da4a-4557-927a-569651e70630</webElementGuid>
+      <webElementGuid>1e034ee5-a1e0-444b-8b5e-03bf2420d063</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>نعم</value>
-      <webElementGuid>8b9223a4-9e03-4e18-9375-2531676d08ea</webElementGuid>
+      <webElementGuid>64d415cc-665e-4bc9-afce-13e5a9a2c6b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;QuestionnaireTbl&quot;)/tbody[1]/tr[@class=&quot;item&quot;]/td[@id=&quot;tdControls&quot;]/span[@class=&quot;fl-right radio-toolbar&quot;]/label[@class=&quot;control-label padding10-radio&quot;]</value>
-      <webElementGuid>5f3f4731-ec60-4269-ba1e-0801b935e21f</webElementGuid>
+      <webElementGuid>949498c4-e38c-486c-beb2-6dc0bf6abfa3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//td[@id='tdControls']/span/label)[3]</value>
-      <webElementGuid>362f44b2-bb75-4c63-850e-5ae497da0a51</webElementGuid>
+      <webElementGuid>6c9818da-31e2-4f70-9e8a-52a3cd9ab973</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='double sign test.docx'])[4]/following::label[2]</value>
-      <webElementGuid>4a371dd5-cc16-442e-acb7-1e86acedb123</webElementGuid>
+      <webElementGuid>d9c95fa3-c39e-4bce-bec2-bd46a06b56ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='double sign test.docx'])[3]/following::label[2]</value>
-      <webElementGuid>dcc6b706-bc39-417c-9ef0-017bbbb1500d</webElementGuid>
+      <webElementGuid>9861ee8a-0421-4cab-a130-155e10a5ef07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='لا'])[7]/preceding::label[1]</value>
-      <webElementGuid>e04837b1-51da-4b4c-9e67-6e01ce64e22e</webElementGuid>
+      <webElementGuid>7ff6c57a-01ef-4e92-9098-846bcbe2943a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/preceding::label[2]</value>
-      <webElementGuid>4ae49368-fe55-455c-ae4c-933a02220bf6</webElementGuid>
+      <webElementGuid>b7b64fdb-bcf2-43e8-a8af-b4bff75e7182</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[6]/td[2]/span/label</value>
-      <webElementGuid>d74458bc-b042-440e-a0f9-0cc585172c26</webElementGuid>
+      <webElementGuid>e21c709e-b5b6-4dc7-8f13-5c5cc4fba66c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'نعم' or . = 'نعم')]</value>
-      <webElementGuid>c692d960-c94a-491d-9d05-42701c1c5f7c</webElementGuid>
+      <webElementGuid>166fdb79-bf32-4f97-8d7a-6ffabb6aaecc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

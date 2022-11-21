@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_20</name>
+   <name>a_21</name>
    <tag></tag>
-   <elementGuidId>1157f381-26cb-4cff-8fe8-6c9777a19a1b</elementGuidId>
+   <elementGuidId>7eefc5ba-86ba-4d55-9904-a61b7f665a18</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#390571d9-6920-453b-8f34-a021b72a62bb_cell_selected > a.k-link</value>
+         <value>#c7330505-ca72-41f5-bbcc-3700fce60573_cell_selected > a.k-link</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[@id='390571d9-6920-453b-8f34-a021b72a62bb_cell_selected']/a</value>
+         <value>//td[@id='c7330505-ca72-41f5-bbcc-3700fce60573_cell_selected']/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and @title = 'Monday, November 21, 2022' and (text() = '21' or . = '21')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a9fc6937-4082-469a-b855-5c6efbe1ad6b</webElementGuid>
+      <webElementGuid>e26d70b8-cc26-42b9-bc30-fb830b087438</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>c89fcae8-a68d-436b-b1a5-1b345f9203b9</webElementGuid>
+      <webElementGuid>3e4b4182-5642-4b1e-b619-bd7709c33c19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>k-link</value>
-      <webElementGuid>0f0a16f8-43a9-42f7-a1e4-aa6c90ea43ee</webElementGuid>
+      <webElementGuid>b6b8b514-8606-4927-80bf-0a1ff3839b60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,110 +50,102 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>7fdf8a03-4771-440c-8181-05f5152daf13</webElementGuid>
+      <webElementGuid>0ed597d0-e021-4719-ae5e-cab62c19a871</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-value</name>
       <type>Main</type>
-      <value>2022/10/20</value>
-      <webElementGuid>2600a83c-406f-4019-afe2-2ff3da64a720</webElementGuid>
+      <value>2022/10/21</value>
+      <webElementGuid>115defd7-1660-449b-991f-749749eab145</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Sunday, November 20, 2022</value>
-      <webElementGuid>f6ec7a4b-e9d8-4901-8d58-1d32ac717e60</webElementGuid>
+      <value>Monday, November 21, 2022</value>
+      <webElementGuid>d27442e9-98f8-4a50-817c-9df110ba97e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>20</value>
-      <webElementGuid>8012a337-5bd3-49fd-b78e-e4773f8fdb84</webElementGuid>
+      <value>21</value>
+      <webElementGuid>19ab8d79-fb5a-4c11-83de-4dee03503aa0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;390571d9-6920-453b-8f34-a021b72a62bb_cell_selected&quot;)/a[@class=&quot;k-link&quot;]</value>
-      <webElementGuid>5791d7e9-c639-4ac0-8a7f-28410eda7087</webElementGuid>
+      <value>id(&quot;c7330505-ca72-41f5-bbcc-3700fce60573_cell_selected&quot;)/a[@class=&quot;k-link&quot;]</value>
+      <webElementGuid>927dac8e-839d-41a3-8d53-6bcef2dfc60c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//td[@id='390571d9-6920-453b-8f34-a021b72a62bb_cell_selected']/a</value>
-      <webElementGuid>dc83f4a6-addb-49ed-ac14-ddca40706847</webElementGuid>
+      <value>//td[@id='c7330505-ca72-41f5-bbcc-3700fce60573_cell_selected']/a</value>
+      <webElementGuid>5ee8e417-d599-4d32-8c24-cf2fce1470d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'20')])[11]</value>
-      <webElementGuid>9ba1f9d6-f606-4772-aace-2f9aab004737</webElementGuid>
+      <value>//a[contains(text(),'21')]</value>
+      <webElementGuid>749a9ddb-8142-4be3-8cf1-bbd5678616e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[4]/following::a[22]</value>
-      <webElementGuid>24ae5ecd-754c-4f9a-9f23-7978bcbd2354</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::a[23]</value>
+      <webElementGuid>66e5f365-be55-44d4-b4e6-bf39bf7a1c2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[4]/following::a[22]</value>
-      <webElementGuid>819932e7-d6ca-4b3e-9e57-857e892fc0c8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[1]/following::a[23]</value>
+      <webElementGuid>23092ad7-9600-4c73-af04-c77dc9d97989</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='- اختر نوع العملة -'])[7]/preceding::a[2]</value>
-      <webElementGuid>71da214c-7865-4ef8-9f5c-5b1c752e778a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='USD'])[6]/preceding::a[2]</value>
-      <webElementGuid>3caeb95d-24a2-4539-9bf6-77fa0864d267</webElementGuid>
+      <value>//*/text()[normalize-space(.)='21']/parent::*</value>
+      <webElementGuid>2e05b5b9-4467-40e9-b128-6a9118c20fb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[256]</value>
-      <webElementGuid>56402837-b1ce-4484-a424-4f6f3bfeece0</webElementGuid>
+      <value>(//a[contains(@href, '#')])[119]</value>
+      <webElementGuid>0e884775-8994-4ac1-8246-2df09cfb1ce7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[115]/div/div/table/tbody/tr[4]/td/a</value>
-      <webElementGuid>d03e34fe-cec6-48b5-888a-8e3c27fa2674</webElementGuid>
+      <value>//tr[4]/td[2]/a</value>
+      <webElementGuid>af78d165-631e-4b62-9bd4-e07705511263</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and @title = 'Sunday, November 20, 2022' and (text() = '20' or . = '20')]</value>
-      <webElementGuid>b2fccb0b-7161-4d5a-9f44-77bc3e5c141f</webElementGuid>
+      <value>//a[@href = '#' and @title = 'Monday, November 21, 2022' and (text() = '21' or . = '21')]</value>
+      <webElementGuid>d74666a5-2d03-4e9f-88d4-4404ddb15713</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_yes</name>
+   <name>label_solve</name>
    <tag></tag>
-   <elementGuidId>d33326d9-1238-46f7-9a7b-80b63a4e0e26</elementGuidId>
+   <elementGuidId>0e7ecf4d-a831-4ee1-bd3d-d909abad13fb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -17,12 +17,12 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>6a95029f-7e0e-4565-9462-57692b3df83e</webElementGuid>
+      <webElementGuid>7aab1b4e-03ea-4236-9f7e-4879e79d8dc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,31 +30,31 @@
       <name>class</name>
       <type>Main</type>
       <value>control-label padding10-radio</value>
-      <webElementGuid>69fb0b07-e68e-44f3-9002-501a849f0811</webElementGuid>
+      <webElementGuid>f9aed16c-afd4-48e7-9a88-102e574b94ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>ItemID-150-نعم</value>
+      <webElementGuid>65231d3a-1fd6-4d77-9f14-3230103de194</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>ItemID-83-نعم</value>
-      <webElementGuid>85a4ce67-cb72-4360-8766-589a10fecf21</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>نعم</value>
-      <webElementGuid>c521d34c-63a5-4dec-b962-8da5caf4d871</webElementGuid>
+      <webElementGuid>ca72653d-ea8d-4173-a557-1c4524f557f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;QuestionnaireTbl&quot;)/tbody[1]/tr[@class=&quot;item&quot;]/td[@id=&quot;tdControls&quot;]/span[@class=&quot;fl-right radio-toolbar&quot;]/label[@class=&quot;control-label padding10-radio&quot;]</value>
-      <webElementGuid>2a08d997-4f27-40cb-9956-c3e4d1162c13</webElementGuid>
+      <webElementGuid>689d0f09-a518-4a12-aa03-3c7c814bd16b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,23 +62,23 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//td[@id='tdControls']/span/label)[3]</value>
-      <webElementGuid>e1a54b20-192d-431b-aa10-971f3bb723aa</webElementGuid>
+      <webElementGuid>b6be30a3-19ad-4623-8408-28719ef5edcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::label[2]</value>
-      <webElementGuid>b58998bb-0bba-4e8b-81de-b7d03d3a6b24</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::label[2]</value>
+      <webElementGuid>13b66e13-d5ac-4885-b672-93d6db95f0ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='لا'])[6]/following::label[2]</value>
-      <webElementGuid>92907356-d1a8-48af-ae7a-33ca2681fc67</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اختر الملفات...'])[1]/following::label[2]</value>
+      <webElementGuid>c7d76f76-c531-48b4-93a1-0e928faa30b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,23 +86,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='لا'])[7]/preceding::label[1]</value>
-      <webElementGuid>0d54c2c8-76a8-4053-ae7e-ac3a78cb77e9</webElementGuid>
+      <webElementGuid>be88582e-a8b1-4409-af17-9daf028c5f2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::label[2]</value>
-      <webElementGuid>34c44015-714e-4843-8f83-d84c6348e586</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/preceding::label[2]</value>
+      <webElementGuid>1f9f9c82-9a8e-4120-a2c2-2eef49d89549</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[2]/span/label</value>
-      <webElementGuid>d4a6d6e7-bba1-470a-acd7-c70dbf52dc34</webElementGuid>
+      <value>//tr[3]/td[2]/span/label</value>
+      <webElementGuid>836ed818-25d0-47b0-8235-100c4e836377</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'نعم' or . = 'نعم')]</value>
-      <webElementGuid>15f57bcb-39e6-4683-9815-736ab19e1d99</webElementGuid>
+      <webElementGuid>7df9ba1a-e71f-42f8-a6ec-6a45a4706cb6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
