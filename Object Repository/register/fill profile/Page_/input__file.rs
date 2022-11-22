@@ -6,12 +6,16 @@
    <elementGuidId>cca9d726-e082-4e4b-a27c-419154fbf93e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@name='file'])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.k-button.k-upload-button.k-state-focused > input[name=&quot;file&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='file']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;AttachmentDetailsgrid_active_cell&quot;)/div[@class=&quot;pull-left mr-10 br-less&quot;]/div[@class=&quot;k-widget k-upload k-header k-upload-sync k-upload-empty&quot;]/div[@class=&quot;k-button k-upload-button k-state-focused&quot;]/input[@class=&quot;fdUpload&quot;][count(. | //*[@type = 'file' and @name = 'file']) = count(//*[@type = 'file' and @name = 'file'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>50a84639-024c-4d53-a4cf-5ca587801d15</webElementGuid>
+      <webElementGuid>f4e71611-07d1-4d2d-8d55-11ebe68681a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>file</value>
-      <webElementGuid>f474cb52-035b-4712-80ff-4663127e3115</webElementGuid>
+      <webElementGuid>15982fd7-09f5-4bbe-9cdd-383b1dc6e5e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fdUpload</value>
-      <webElementGuid>cba005f2-277e-4f30-88b8-ac36540c1cd1</webElementGuid>
+      <webElementGuid>2021dd68-2224-4bcd-9715-6c0851e740ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>file</value>
-      <webElementGuid>3fdb980e-3079-43b9-b9ae-fb06c601c676</webElementGuid>
+      <webElementGuid>1614ed14-5db7-4f0c-89d7-5de961b9f179</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>data-role</name>
       <type>Main</type>
       <value>upload</value>
-      <webElementGuid>c269ce7e-7f93-4a84-9409-ee33847de15d</webElementGuid>
+      <webElementGuid>f9528717-ad14-4251-961a-d247efd7fcee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>multiple</name>
       <type>Main</type>
       <value>multiple</value>
-      <webElementGuid>83ce0319-de5a-4b83-b9fd-e5c07bc71f54</webElementGuid>
+      <webElementGuid>8ca949fe-cf07-42de-b9bd-480020aa1eef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,15 +74,15 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>d6b95b88-e0e7-4611-84ea-05cbdaa78f83</webElementGuid>
+      <webElementGuid>1aac479d-4964-4420-a8ae-40b88355c559</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;AttachmentDetailsgrid_active_cell&quot;)/div[@class=&quot;pull-left mr-10 br-less&quot;]/div[@class=&quot;k-widget k-upload k-header k-upload-sync k-upload-empty&quot;]/div[@class=&quot;k-button k-upload-button k-state-focused&quot;]/input[@class=&quot;fdUpload&quot;]</value>
-      <webElementGuid>f90eff71-884e-429c-b6cc-f4ef49bd7cda</webElementGuid>
+      <webElementGuid>aa170608-9601-4e82-856d-3ae57ba065fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@name='file'])[2]</value>
-      <webElementGuid>1c75edd1-df7d-40b5-8d8c-fc3b5542d803</webElementGuid>
+      <webElementGuid>70bb11c4-b795-4bba-bf8c-78f223617935</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//td[@id='AttachmentDetailsgrid_active_cell']/div/div/div/input</value>
-      <webElementGuid>103bf218-d487-4892-a680-462f98b537d0</webElementGuid>
+      <webElementGuid>febda3ed-a591-4f5b-89f6-065efed8f0b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[6]/div/div/div/input</value>
-      <webElementGuid>5a8abdb1-19e7-4a43-9bd4-ee88f7cc3bec</webElementGuid>
+      <webElementGuid>35271a68-aa78-41c7-851f-70205e9eadd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'file' and @name = 'file']</value>
-      <webElementGuid>0fed172b-0585-4bab-aaca-4a85995d841f</webElementGuid>
+      <webElementGuid>a5bdc411-997f-41cc-991a-7261ef6e5d40</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -56,9 +56,12 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('register/fill profile/save9'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('register/fill profile/Page_/span__k-select attachment'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(4)
+WebUI.focus(findTestObject('register/fill profile/Page_/calender attach'))
+
+CustomKeywords.'com.katalon.plugin.keyword.calendar.SetDateCalendarKeyword.setDate'(findTestObject('register/fill profile/Page_/calender attach'), 
+    1, 10, 2023, 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('register/fill profile/Page_/input__file'), 3)
 

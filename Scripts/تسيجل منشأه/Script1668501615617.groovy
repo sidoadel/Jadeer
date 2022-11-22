@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login SME'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('register/fill profile/popup'), FailureHandling.STOP_ON_FAILURE)
 
@@ -28,8 +28,6 @@ WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 WebUI.mouseOver(findTestObject('register/fill profile/header'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('register/fill profile/Select prof'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(30, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('register/fill profile/input__CompanyName'), 10)
 
@@ -182,13 +180,17 @@ WebUI.click(findTestObject('register/fill profile/New Folder/select5'), FailureH
 
 WebUI.click(findTestObject('register/fill profile/New Folder/5in'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('input__txtCompanyHierarchy_City'), 'جده', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('register/input__txtCompanyHierarchy_City'), 'جده', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('register/fill profile/Page_/save9'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('null'), 'وكيل', false)
+WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/New Folder/select nashat'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/select wakel'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('register/fill profile/New Folder/open wakel'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('register/fill profile/Page_/add new wakel'), FailureHandling.STOP_ON_FAILURE)
 
@@ -200,17 +202,17 @@ WebUI.click(findTestObject('register/fill profile/Page_/save wakel'))
 
 WebUI.setText(findTestObject('register/fill profile/Page_/input__txtfilterAgent'), 'لحوم', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.getText(findTestObject('register/fill profile//label_'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('register/fill profile/save9'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.focus(findTestObject('null'))
+WebUI.click(findTestObject('register/fill profile/Page_/span__k-select attachment'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('null'))
+WebUI.delay(4)
 
-WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/a_4'))
+WebUI.waitForElementClickable(findTestObject('register/fill profile/Page_/input__file'), 3)
 
 WebUI.uploadFile(findTestObject('register/fill profile/Page_/input__file'), GlobalVariable.attachment, FailureHandling.STOP_ON_FAILURE)
 
@@ -222,7 +224,7 @@ WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/mony page/ye
 
 WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/mony page/add mony'))
 
-WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/Page_/span__k-icon k-i-arrow-60-down'))
+WebUI.click(findTestObject('register/fill profile/Page_/select year'))
 
 WebUI.click(findTestObject('register/fill profile/Page_/Page_/Page_/Page_/li_2022'))
 
@@ -351,4 +353,12 @@ WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_f
 WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/input__Disclaimervalue'))
 
 WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/Send'))
+
+WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/send OK'))
+
+WebUI.mouseOver(findTestObject('register/fill profile/header'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('logout/select to logout'))
+
+WebUI.click(findTestObject('logout/logout'))
 

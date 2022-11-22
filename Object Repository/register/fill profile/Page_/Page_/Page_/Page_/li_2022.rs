@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//ul[@id='txtStrtYrDt_listbox']/li[4]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '2022' or . = '2022')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>ce624bea-5268-4570-90bb-36da2213fdc3</webElementGuid>
+      <webElementGuid>333da9d2-6a6c-4587-9163-a03f599c7c70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>a1904ffe-134c-4019-946b-cdd33a78fb2f</webElementGuid>
+      <webElementGuid>ae5372e9-5a48-4d94-8102-774f11046610</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>fee26316-9f76-43da-9bd8-b4caee808f29</webElementGuid>
+      <webElementGuid>0b0b7fe5-8470-4a21-aa22-310907670361</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>c6d5f19d-a957-4a3c-b95a-f98088b72f63</webElementGuid>
+      <webElementGuid>31d08145-8e75-4f97-a7a7-fbc07c885f9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>k-item k-state-hover</value>
-      <webElementGuid>db4313f2-66cb-4c50-8dba-a011797cf178</webElementGuid>
+      <webElementGuid>730054c8-8d36-4c99-a352-32414c3c9c0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9a57c602-5931-4d84-9b2e-9b2883996eb2</webElementGuid>
+      <webElementGuid>80857cfb-8055-4d71-88fe-629d7363eedc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>data-offset-index</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>ba26a0e6-725f-46b7-9485-980eefc847b8</webElementGuid>
+      <webElementGuid>b9e61f52-d4fd-44b0-bdb7-26d269191e91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>2022</value>
-      <webElementGuid>a1278343-c377-40cc-aaa5-04ab64a52db0</webElementGuid>
+      <webElementGuid>2de13f3f-84fa-405a-8647-109f64faffb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txtStrtYrDt_listbox&quot;)/li[@class=&quot;k-item k-state-hover&quot;]</value>
-      <webElementGuid>2c7e8bf3-62dc-4c66-b551-b09973dc3432</webElementGuid>
+      <webElementGuid>94c8a03a-8cbd-4d1b-b2dd-8a0f04d6b148</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='txtStrtYrDt_listbox']/li[4]</value>
-      <webElementGuid>d3380ab2-2d62-4247-9b10-c370c8817e2a</webElementGuid>
+      <webElementGuid>07ab35a5-d8e1-4769-84dc-3938e3d10bc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='اختيار سنة القوائم المالية'])[2]/following::li[4]</value>
-      <webElementGuid>fa0a1e5c-33e0-4e60-b22d-0c2a3b4f80a7</webElementGuid>
+      <webElementGuid>83c533d3-c102-4a17-92e1-5879a40b7c4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::li[4]</value>
-      <webElementGuid>027fc543-33e4-424b-afaf-f8445871fdfd</webElementGuid>
+      <webElementGuid>54040b2c-6fbd-4de7-9b97-28c84d596b1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No data found.'])[10]/preceding::li[1]</value>
-      <webElementGuid>3f41dcac-109c-46f0-b530-5fde6406202b</webElementGuid>
+      <webElementGuid>f666a6ec-b6d4-4679-bb0f-68fbdb56d7cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='- اختر نوع العملة -'])[2]/preceding::li[1]</value>
-      <webElementGuid>3fc18ecc-c6a3-4bc3-844f-0d5e241eeadb</webElementGuid>
+      <webElementGuid>0af5c19b-f286-4a03-938e-e94f71f72945</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='2022']/parent::*</value>
-      <webElementGuid>d4754f74-0295-44d2-9ec9-526b14ee7775</webElementGuid>
+      <webElementGuid>6fcbc6cc-0c27-460b-9d46-01c7a30eb215</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +146,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[46]/div/div[3]/ul/li[4]</value>
-      <webElementGuid>02678f10-6a4a-4f2a-9a1f-3e726e2b1753</webElementGuid>
+      <webElementGuid>d6c488a9-e719-4c96-84f2-05993518def1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +154,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = '2022' or . = '2022')]</value>
-      <webElementGuid>26549a42-e485-4aeb-b5da-2ae605d8e91d</webElementGuid>
+      <webElementGuid>b2b2d606-c9e6-45c9-a9f6-1b5f10e95878</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

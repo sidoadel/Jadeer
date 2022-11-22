@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@onclick='TakeAction(this);'])[18]</value>
+         <value>(//div[@onclick='TakeAction(this);'])[20]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>bbbf0a0f-13de-47d2-8825-631a81df12d6</webElementGuid>
+      <webElementGuid>1837670b-22e4-40d3-97c9-80610179dcce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>grid_nav</value>
-      <webElementGuid>ebc12804-d0b3-4b2d-a279-ca84d16edab4</webElementGuid>
+      <webElementGuid>4a77fd48-57f8-47c0-8b1c-ddb7398046c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>TakeAction(this);</value>
-      <webElementGuid>601fe6f6-79e2-4612-80c5-caa12f3292f0</webElementGuid>
+      <webElementGuid>abf7537c-8e29-429b-aea7-f7f9bfd8b37f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;grdCR_active_cell&quot;)/div[@class=&quot;grid_nav&quot;]</value>
-      <webElementGuid>3351e72a-941b-4edf-a6eb-1db956b71f03</webElementGuid>
+      <webElementGuid>f691a070-012c-4084-9152-2d7982cddfcd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//div[@onclick='TakeAction(this);'])[18]</value>
-      <webElementGuid>df9e8943-15f5-4b62-9765-694a869d9e0e</webElementGuid>
+      <webElementGuid>659b0aa3-3009-4aa6-8a11-1e5a80d435db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//td[@id='grdCR_active_cell']/div</value>
-      <webElementGuid>0c745521-a00d-495b-9a8f-2c40ce0009b6</webElementGuid>
+      <webElementGuid>423436a7-0d65-4518-b111-e3ddf89a48a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +74,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[18]/td[7]/div</value>
-      <webElementGuid>97345254-7961-4101-9827-5ab31f08143c</webElementGuid>
+      <webElementGuid>5d61a166-8884-43e3-83c9-36497eaf4adf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

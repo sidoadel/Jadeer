@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_--  --_k-icon k-i-arrow-60-down</name>
+   <name>select year</name>
    <tag></tag>
-   <elementGuidId>cab0d88d-07ce-4903-9fd8-5bcba2ba065f</elementGuidId>
+   <elementGuidId>83fc8355-e8ae-4374-b78a-11e182fde1b2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,11 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='FormInsurance']/div/div/span/span/span[2]/span</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;FormInsurance&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-xs-12 col-md-6 col-lg-6&quot;]/span[@class=&quot;k-widget k-dropdown k-header form-control&quot;]/span[@class=&quot;k-dropdown-wrap k-state-default k-state-hover k-state-focused&quot;]/span[@class=&quot;k-select&quot;]/span[@class=&quot;k-icon k-i-arrow-60-down&quot;]</value>
+         <value>//*[@id=&quot;FormFinancial&quot;]/div/div[1]/div[1]/span/span[1]/span[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d3596964-606e-4667-8256-435bc8b3e68c</webElementGuid>
+      <webElementGuid>5211ef8f-6bcc-482b-ab02-fedce2f672d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,30 +30,30 @@
       <name>class</name>
       <type>Main</type>
       <value>k-icon k-i-arrow-60-down</value>
-      <webElementGuid>e3a38ea2-652c-44cc-9c1f-08f45a5c3270</webElementGuid>
+      <webElementGuid>a53108fc-388c-40c1-a9b1-df9aa02419b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;FormInsurance&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-xs-12 col-md-6 col-lg-6&quot;]/span[@class=&quot;k-widget k-dropdown k-header form-control&quot;]/span[@class=&quot;k-dropdown-wrap k-state-default k-state-hover k-state-focused&quot;]/span[@class=&quot;k-select&quot;]/span[@class=&quot;k-icon k-i-arrow-60-down&quot;]</value>
-      <webElementGuid>0d266b38-f416-4354-8b94-b95100d8cb41</webElementGuid>
+      <value>id(&quot;FormFinancial&quot;)/div[@class=&quot;panel-body no-padding-top&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-xs-12 col-md-6 col-lg-6&quot;]/span[@class=&quot;k-widget k-dropdown k-header form-control&quot;]/span[@class=&quot;k-dropdown-wrap k-state-default k-state-hover k-state-focused&quot;]/span[@class=&quot;k-select&quot;]/span[@class=&quot;k-icon k-i-arrow-60-down&quot;]</value>
+      <webElementGuid>7e5d49a1-cfa9-4d5c-9dff-d6eba086e558</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='FormInsurance']/div/div/span/span/span[2]/span</value>
-      <webElementGuid>864540f9-e186-4287-9186-540e5aac2e5c</webElementGuid>
+      <value>//form[@id='FormFinancial']/div/div/div/span/span/span[2]/span</value>
+      <webElementGuid>7f9beddc-24ff-4158-a1d6-2fe6b3d5aa39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/div/span/span/span[2]/span</value>
-      <webElementGuid>d0223665-2bef-4f4b-9b65-dbeeb54bb476</webElementGuid>
+      <value>//form/div/div/form/div/div/div/span/span/span[2]/span</value>
+      <webElementGuid>06ee3293-90c3-4f05-bd3c-31e526329d3e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

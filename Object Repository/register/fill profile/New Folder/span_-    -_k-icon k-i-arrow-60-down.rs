@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//form[@id='FormInsurance']/div[3]/div/span/span/span[2]/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;FormInsurance&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-xs-12 col-md-6 col-lg-6&quot;]/span[@class=&quot;k-widget k-dropdown k-header form-control&quot;]/span[@class=&quot;k-dropdown-wrap k-state-default k-state-hover k-state-focused&quot;]/span[@class=&quot;k-select&quot;]/span[@class=&quot;k-icon k-i-arrow-60-down&quot;]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>5b16072f-9a6f-470f-8c88-285e8013cd94</webElementGuid>
+      <webElementGuid>566dcbf5-8c5d-4186-b7ba-8e39350099b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>k-icon k-i-arrow-60-down</value>
-      <webElementGuid>c3d70cd2-3766-4b5f-9809-1f4041d477f7</webElementGuid>
+      <webElementGuid>8fabc49f-642d-4fce-87ee-3f69efd3f54b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;FormInsurance&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-xs-12 col-md-6 col-lg-6&quot;]/span[@class=&quot;k-widget k-dropdown k-header form-control&quot;]/span[@class=&quot;k-dropdown-wrap k-state-default k-state-hover k-state-focused&quot;]/span[@class=&quot;k-select&quot;]/span[@class=&quot;k-icon k-i-arrow-60-down&quot;]</value>
-      <webElementGuid>05d011bc-8881-4152-957a-786dea2bd4b8</webElementGuid>
+      <webElementGuid>d4531fa6-7afe-4a72-8212-c6323f578652</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='FormInsurance']/div[3]/div/span/span/span[2]/span</value>
-      <webElementGuid>c5033243-a28b-4cb3-8195-ecc1bd540d73</webElementGuid>
+      <webElementGuid>f6c001f3-5122-409a-b488-3911b55346dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +58,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div[3]/div/span/span/span[2]/span</value>
-      <webElementGuid>28bfaac0-2f1b-4ceb-9642-363d7c4ac323</webElementGuid>
+      <webElementGuid>1bf116c9-6340-4c70-bb2f-84c5547ae7ea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

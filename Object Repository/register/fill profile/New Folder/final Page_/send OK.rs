@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>send OK</name>
+   <tag></tag>
+   <elementGuidId>c1438173-e78d-43b6-b0b5-f0057b6268f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui-dialog-buttonset > button.ui-button.ui-corner-all.ui-widget</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[22]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b86948f7-3edf-43ea-88fe-2bec24db2325</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>836c98f8-6d7b-480f-a8a3-873fa0a815c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-button ui-corner-all ui-widget</value>
+      <webElementGuid>b97fb357-e109-48fd-be4e-e95b5cc73445</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>نعم</value>
+      <webElementGuid>43c35782-ef30-42cb-9799-cbf12ecaf019</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MainBody&quot;)/div[@class=&quot;ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-dialog-buttons ui-draggable&quot;]/div[@class=&quot;ui-dialog-buttonpane ui-widget-content ui-helper-clearfix&quot;]/div[@class=&quot;ui-dialog-buttonset&quot;]/button[@class=&quot;ui-button ui-corner-all ui-widget&quot;]</value>
+      <webElementGuid>a801a290-466c-48bb-923d-8a0b095f39aa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[22]</value>
+      <webElementGuid>dc4b4a45-06bc-4b86-a750-0e6c22284448</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='MainBody']/div[34]/div[3]/div/button</value>
+      <webElementGuid>32522c7e-4840-47be-b6b5-54653fbae202</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='هل أنت متأكد أنك تريد إرسال؟'])[1]/following::button[1]</value>
+      <webElementGuid>e4b07fa5-9410-48e7-a43c-8f266f086292</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::button[1]</value>
+      <webElementGuid>6f485e9b-ed5f-4b5a-8618-c2e2e2badc36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='لا'])[8]/preceding::button[1]</value>
+      <webElementGuid>2dfdcb46-9b16-4a22-ab91-2a0de9d44ecc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[34]/div[3]/div/button</value>
+      <webElementGuid>b99df063-a9c1-471a-bd0e-064f0b21b145</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'نعم' or . = 'نعم')]</value>
+      <webElementGuid>b628e4c3-1a37-4b25-8134-b38466ab67ed</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

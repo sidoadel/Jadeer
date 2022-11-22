@@ -26,7 +26,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'(//div[@onclick=\'TakeAction(this);\'])[1]'</initValue>
-      <name>company</name>
+      <initValue>'Auditor1'</initValue>
+      <name>Auditor1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'isvSBt33DQsJS7i93wGCXA=='</initValue>
+      <name>AuditorPW</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Supervisor1'</initValue>
+      <name>Supervisor1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'isvSBt33DQsJS7i93wGCXA=='</initValue>
+      <name>SupervisorPW</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
