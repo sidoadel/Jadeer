@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>save9</name>
+   <name>btnClassificationSave</name>
    <tag></tag>
    <elementGuidId>4c382ec4-d77e-4150-8e33-6cfa792a960c</elementGuidId>
    <selectorCollection>

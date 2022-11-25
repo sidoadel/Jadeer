@@ -36,31 +36,13 @@ WebUI.click(findTestObject('register/fill profile/Select prof'), FailureHandling
 
 WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('register/fill profile/New Folder/select nashat'))
+WebUI.click(findTestObject('register/fill profile/New Folder/calendar attach'))
 
-WebUI.click(findTestObject('register/fill profile/New Folder/select wakel'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/New Folder/calender right'))
 
-WebUI.click(findTestObject('register/fill profile/New Folder/open wakel'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/New Folder/calender right'))
 
-WebUI.click(findTestObject('register/fill profile/Page_/add new wakel'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('register/fill profile/Page_/input__AgentNameAr'), 'وكيل معتمد')
-
-WebUI.setText(findTestObject('register/fill profile/Page_/input__AgentNameEn'), 'good')
-
-WebUI.click(findTestObject('register/fill profile/Page_/save wakel'))
-
-WebUI.setText(findTestObject('register/fill profile/Page_/input__txtfilterAgent'), 'لحوم', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('register/fill profile/save9'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('register/fill profile/Page_/span__k-select attachment'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(4)
-
-WebUI.waitForElementClickable(findTestObject('register/fill profile/Page_/input__file'), 3)
+WebUI.click(findTestObject('register/fill profile/New Folder/calender day'))
 
 WebUI.uploadFile(findTestObject('register/fill profile/Page_/input__file'), GlobalVariable.attachment, FailureHandling.STOP_ON_FAILURE)
 

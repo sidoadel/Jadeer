@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>table code</name>
+   <name>Company update</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b0e6d000-2926-4445-977e-c358c1554823</testCaseGuid>
+   <testCaseGuid>43658977-ed08-48e4-8624-e7baae603d08</testCaseGuid>
 </TestCaseEntity>

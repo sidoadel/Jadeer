@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>grid icon</name>
+   <name>label_grid</name>
    <tag></tag>
-   <elementGuidId>f3113b81-1438-4fba-966e-9f88deb95d6e</elementGuidId>
+   <elementGuidId>4b800bba-b579-4405-aba8-9205b72849ae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '​' or . = '​')]</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;divAgent&quot;]/div[3]/div[3]//tbody/tr[1]/td[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>label[for='grdSMEClassificationAgentActivityabe9df30-ea70-4973-91a9-3899a93f26fc']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//label[@for='grdSMEClassificationAgentActivityabe9df30-ea70-4973-91a9-3899a93f26fc']</value>
+         <value>#grdSMEClassificationAgentActivity_active_cell > label.k-checkbox-label.k-no-text</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>c8590ea3-d880-4537-9baf-c8b5caa66282</webElementGuid>
+      <webElementGuid>dc999729-c8ea-43a7-b595-807b6dadc70d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>04f8830f-5435-4b70-b506-7c6fc9ceea40</value>
+      <webElementGuid>64503660-69ea-4681-9f00-8f5435801d8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,15 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>k-checkbox-label k-no-text</value>
-      <webElementGuid>0e90ee24-4abf-4bd4-bb1b-e66ca3a6df28</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>grdSMEClassificationAgentActivity4f56a5e6-3fe7-4417-a67b-c255446f96e6</value>
-      <webElementGuid>cc842663-8a3f-4bfc-9e12-83324bf2e088</webElementGuid>
+      <webElementGuid>01623ce5-f54c-4028-be9f-98e1a8b5b69b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>​</value>
-      <webElementGuid>25f5b802-8d84-427d-a68b-baa9ae34b95f</webElementGuid>
+      <webElementGuid>c4da9f8f-5115-4d64-a0df-1976d6a2c675</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,55 +54,55 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;grdSMEClassificationAgentActivity_active_cell&quot;)/label[@class=&quot;k-checkbox-label k-no-text&quot;]</value>
-      <webElementGuid>2fa5b08a-5981-4776-9e6e-56e7f41d4678</webElementGuid>
+      <webElementGuid>e9687738-653f-4fa5-b368-dbe7fd089c8b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//th[@id='grdSMEClassificationAgentActivity_active_cell']/label</value>
-      <webElementGuid>95ce532d-3464-4bae-aa9a-6686373927e1</webElementGuid>
+      <value>//td[@id='grdSMEClassificationAgentActivity_active_cell']/label</value>
+      <webElementGuid>490f6b3d-d458-4928-a26d-6f6d019afc84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ابحث باسم النشاط أو كود النشاط'])[2]/following::label[1]</value>
-      <webElementGuid>e0563e2d-f02c-4837-8103-664c987d41ce</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اسم النشاط'])[2]/following::label[1]</value>
+      <webElementGuid>597323cf-19d4-47cb-8f80-0d3bfce623cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='قائمة الأنشطة'])[2]/following::label[2]</value>
-      <webElementGuid>9d12b65a-ec8a-48f3-bb63-4c1bfd1ecb49</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رمز النشاط'])[2]/following::label[1]</value>
+      <webElementGuid>24a97317-3273-4eb5-ba88-6debc7f1e5dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SME Activity ID'])[2]/preceding::label[1]</value>
-      <webElementGuid>6bf31ff8-d476-4957-ada6-87f3ab45a504</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='انتاج أنواع لحوم الدواجن والأرانب والطيور الطازجة'])[1]/preceding::label[1]</value>
+      <webElementGuid>ef1cc87b-8265-436b-af75-bf1c3b2c59e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='رمز النشاط'])[2]/preceding::label[1]</value>
-      <webElementGuid>0bbcd1de-def2-4711-a332-734e9d395e05</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[4]/preceding::label[1]</value>
+      <webElementGuid>a366e86d-d629-46f5-bd45-b57e768798c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div/div/table/thead/tr/th/label</value>
-      <webElementGuid>246d704b-c643-40e6-b531-be42744365db</webElementGuid>
+      <value>//td/label</value>
+      <webElementGuid>b112371e-a4f5-4c9a-9fbc-776d0d1ff31d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = '​' or . = '​')]</value>
-      <webElementGuid>28ff6003-9814-4e35-8682-e07d621f9016</webElementGuid>
+      <webElementGuid>1f7a7b7c-1fca-417a-ad1d-dc143f927423</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

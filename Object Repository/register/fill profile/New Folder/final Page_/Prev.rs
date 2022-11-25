@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Prev</name>
+   <tag></tag>
+   <elementGuidId>bd345555-c82a-40e7-8620-5fbcbb7764f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;9b5e9392-efdc-40d6-8036-785ae08d9783&quot;)/div[@class=&quot;k-header&quot;]/a[@class=&quot;k-link k-nav-prev&quot;]/span[@class=&quot;k-icon k-i-arrow-60-left&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.k-link.k-nav-prev > span.k-icon.k-i-arrow-60-left</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='9b5e9392-efdc-40d6-8036-785ae08d9783']/div/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e802c130-6212-4927-925d-367e4dfcdbbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-icon k-i-arrow-60-left</value>
+      <webElementGuid>956e1dd5-4502-438b-ac0c-b6da6a74779e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;9b5e9392-efdc-40d6-8036-785ae08d9783&quot;)/div[@class=&quot;k-header&quot;]/a[@class=&quot;k-link k-nav-prev&quot;]/span[@class=&quot;k-icon k-i-arrow-60-left&quot;]</value>
+      <webElementGuid>5be87921-e9e2-4600-9ddf-37532aed8829</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='9b5e9392-efdc-40d6-8036-785ae08d9783']/div/a/span</value>
+      <webElementGuid>1333b3c7-8392-41f9-a095-3107b171eca9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[22]/div/div/div/a/span</value>
+      <webElementGuid>270ce546-cd99-4983-a0a1-b1ca9ed68f0b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
