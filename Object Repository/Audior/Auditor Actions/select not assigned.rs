@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select not assigned</name>
+   <tag></tag>
+   <elementGuidId>b669a94d-471c-4c79-82af-2248afb55388</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;divPartialContent&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;panel panel-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;row pd-t-b-15&quot;]/div[@class=&quot;row pd-b-15 card-align&quot;]/div[@class=&quot;col-md-4 col-lg-4 col-sm-12 col-xs-12 mr-b-10&quot;]/div[@class=&quot;col-sm-12 card-layout sme-txt-card&quot;]/div[@class=&quot;cardlinkeng&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div/div/div[@dir='rtl']/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[1]/div[1]/div[1]/div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.cardlinkeng</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1ab85b39-2b81-4812-b6fc-bcca494db8c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cardlinkeng</value>
+      <webElementGuid>9e654c7b-35dc-4c0f-80e6-92d24d05fc09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divPartialContent&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;panel panel-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;row pd-t-b-15&quot;]/div[@class=&quot;row pd-b-15 card-align&quot;]/div[@class=&quot;col-md-4 col-lg-4 col-sm-12 col-xs-12 mr-b-10&quot;]/div[@class=&quot;col-sm-12 card-layout sme-txt-card&quot;]/div[@class=&quot;cardlinkeng&quot;]</value>
+      <webElementGuid>d1caf47c-b277-4e27-9ee4-418b5489d9d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divPartialContent']/div/div/div/div/div/div[3]/div[2]/div/div[4]</value>
+      <webElementGuid>b13019bd-fb04-4a3c-8cb0-42be93a005ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[4]</value>
+      <webElementGuid>40d5f5ac-e772-4d3d-925d-44d9e5b71578</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -180,7 +180,7 @@ WebUI.click(findTestObject('register/fill profile/New Folder/select5'), FailureH
 
 WebUI.click(findTestObject('register/fill profile/New Folder/5in'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('register/input__txtCompanyHierarchy_City'), 'جده', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('register/fill profile/input__txtCompanyHierarchy_City'), 'جده', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('register/fill profile/Page_/save9'), FailureHandling.STOP_ON_FAILURE)
 
@@ -362,5 +362,7 @@ WebUI.mouseOver(findTestObject('register/fill profile/header'), FailureHandling.
 
 WebUI.click(findTestObject('logout/select to logout'))
 
-WebUI.click(findTestObject('logout/logout'))
+WebUI.click(findTestObject('logout/logout-SME'))
+
+WebUI.callTestCase(findTestCase('open new Tab auditor'), [:], FailureHandling.STOP_ON_FAILURE)
 

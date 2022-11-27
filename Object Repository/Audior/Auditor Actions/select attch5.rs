@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select attch5</name>
+   <tag></tag>
+   <elementGuidId>1bf124ab-006c-4b90-9cb2-adba8085813c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;grdSMEAttachment&quot;]/table/tbody/tr[5]/td[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.k-input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1c071187-674d-484e-a727-0760a6df4bf7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>11e399a4-2723-4c29-91c8-54bb0df70d3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-input</value>
+      <webElementGuid>5a790dfa-132c-4abc-999c-c55cffc1506b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-- تحديد --</value>
+      <webElementGuid>49fe66e3-deba-42ae-91f0-8d4fb29a463e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;grdSMEAttachment&quot;)/table[@class=&quot;k-selectable&quot;]/tbody[1]/tr[@class=&quot;k-state-selected k-grid-edit-row&quot;]/td[@class=&quot;k-edit-cell&quot;]/span[@class=&quot;k-widget k-dropdown k-header&quot;]/span[@class=&quot;k-dropdown-wrap k-state-default k-state-focused k-state-hover&quot;]/span[@class=&quot;k-input&quot;]</value>
+      <webElementGuid>daaa0770-cd47-4e92-912c-8a6742efce70</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='grdSMEAttachment']/table/tbody/tr[5]/td[5]/span/span/span</value>
+      <webElementGuid>328fc3d2-b81e-4998-8365-a1bcd3d1a642</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product list.pdf'])[1]/following::span[3]</value>
+      <webElementGuid>2abda814-6ddf-49b4-8365-61da16f06a14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='قائمه باصناف المنتجات والخدمات'])[1]/following::span[3]</value>
+      <webElementGuid>d53566e5-dba4-4922-be8a-00e588efed68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/preceding::span[4]</value>
+      <webElementGuid>50b529ff-62c6-4b8a-9b4c-f60d57cf3c82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='سجل سير العمل'])[1]/preceding::span[6]</value>
+      <webElementGuid>07c4c317-055e-4dc4-8355-e9d65a675469</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span/span</value>
+      <webElementGuid>5006a679-a3a3-4436-b6b9-5480262c9847</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '-- تحديد --' or . = '-- تحديد --')]</value>
+      <webElementGuid>fbeb21fe-d1db-46ac-b76d-f8245def3455</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

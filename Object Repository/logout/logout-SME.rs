@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>logout</name>
+   <name>logout-SME</name>
    <tag></tag>
    <elementGuidId>775ba00e-8ec8-4206-9c90-bf9044076b0f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

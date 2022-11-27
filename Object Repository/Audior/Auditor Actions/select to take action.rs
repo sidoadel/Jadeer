@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select to take action</name>
+   <tag></tag>
+   <elementGuidId>e4358815-ebae-4c1d-8fc8-325db750cb0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@id='UpdateProfile'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3f891099-6cd8-433a-927a-fae68ed5acd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>UpdateProfile</value>
+      <webElementGuid>13cfd977-408b-4821-922b-8831362d9430</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>js_updateprofile('Pre-Qualification Process',4);</value>
+      <webElementGuid>0eb49dbe-c20c-42b7-8778-a275f627f02a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary katalonHighlight</value>
+      <webElementGuid>fa5d1bf1-622e-48c7-84a0-b3add739faef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>إتخاذ إجراء</value>
+      <webElementGuid>1751f8bf-935f-4132-8687-6793ff389514</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;grdPreQualificationAuditorNewRegPending&quot;)/div[@class=&quot;k-grid-content k-auto-scrollable&quot;]/table[@class=&quot;k-selectable&quot;]/tbody[1]/tr[@class=&quot;k-alt&quot;]/td[13]/a[@id=&quot;UpdateProfile&quot;]</value>
+      <webElementGuid>13d52bcb-3dc3-4ca6-a82c-8300cfe6e43d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@id='UpdateProfile'])[2]</value>
+      <webElementGuid>3e86a0a5-3292-45f9-b58c-28eaa2d3b40e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='grdPreQualificationAuditorNewRegPending']/div[3]/table/tbody/tr[2]/td[13]/a</value>
+      <webElementGuid>88aee9aa-71d5-4daa-94c9-c951e3edfb5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'إتخاذ إجراء')])[2]</value>
+      <webElementGuid>cad61ed9-189f-40cc-abe3-4a15d37a1300</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='طلب معلق'])[2]/following::a[1]</value>
+      <webElementGuid>13120141-75d8-41d3-b654-b5abaf9af143</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pre-Qualification Auditor Pre-Qualification Auditor'])[2]/following::a[1]</value>
+      <webElementGuid>2fe8f44a-b019-42ea-b133-c0b83c0bc7f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ورشة أسرار الخشب للنجارة'])[3]/preceding::a[1]</value>
+      <webElementGuid>06637eb3-4803-463c-aa2f-e9b390ccd30d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='مقدم خدمة'])[2]/preceding::a[1]</value>
+      <webElementGuid>1b446b08-e89c-426c-aa61-8fca6c6b0706</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[13]/a</value>
+      <webElementGuid>66598008-d235-4637-885c-4b76cec9a73b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'UpdateProfile' and (text() = 'إتخاذ إجراء' or . = 'إتخاذ إجراء')]</value>
+      <webElementGuid>2440202a-73a5-4b79-971a-d152b45cfcad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

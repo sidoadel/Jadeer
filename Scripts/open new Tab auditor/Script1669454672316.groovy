@@ -16,12 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.setText(findTestObject('login/input__UserName'), GlobalVariable.Auditor1)
+String currentPage = WebUI.getUrl()
 
-WebUI.setEncryptedText(findTestObject('login/input__Password'), GlobalVariable.AuditorPW)
+int currentTab = WebUI.getWindowIndex()
 
-WebUI.delay(10)
+WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.click(findTestObject('login/login button_'))
+JavascriptExecutor js = ((driver) as JavascriptExecutor)
+
+js.executeScript('window.open();')
+
+WebUI.switchToWindowIndex(currentTab + 1)
+
+WebUI.navigateToUrl(GlobalVariable.URL)
+
+WebUI.callTestCase(findTestCase('Auditor new request- small comp-Approve'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -22,29 +22,17 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Login SME'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.mouseOver(findTestObject('register/fill profile/popup'), FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.click(findTestObject('register/fill profile/Select company'), FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login Auditor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('register/fill profile/header'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('register/fill profile/Select prof'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('logout/select to logout'))
 
-WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('register/fill profile/New Folder/calendar attach'))
-
-WebUI.click(findTestObject('register/fill profile/New Folder/calender right'))
-
-WebUI.click(findTestObject('register/fill profile/New Folder/calender right'))
-
-WebUI.click(findTestObject('register/fill profile/New Folder/calender day'))
-
-WebUI.uploadFile(findTestObject('register/fill profile/Page_/input__file'), GlobalVariable.attachment, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('register/fill profile/Page_/save10'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('logout/logout - Author'))
 

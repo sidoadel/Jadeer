@@ -29,14 +29,14 @@
       <guid>5746d00e-89d3-4330-98dd-c6fedb7f3488</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Auditor profile</testCaseId>
+      <testCaseId>Test Cases/Auditor new request- small comp-Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8b7338ba-cc93-4297-b754-4fabc36a9b33</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Supervisor profile</testCaseId>
+      <testCaseId>Test Cases/Supervisor Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select attch3</name>
+   <tag></tag>
+   <elementGuidId>27e0a2fa-245a-4a9c-b238-60c62f9b14b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;grdSMEAttachment&quot;]/table/tbody/tr[3]/td[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.k-input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2c8ec53a-008d-4d4d-b330-d8f5bb37f456</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>0dcb48b7-0a5a-4f75-bd8c-5cd6b8c6b582</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-input</value>
+      <webElementGuid>264ef4c5-c2ff-42f3-b8ab-967a512131a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-- تحديد --</value>
+      <webElementGuid>96309653-5232-45ef-a8d0-d47977620d8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;grdSMEAttachment&quot;)/table[@class=&quot;k-selectable&quot;]/tbody[1]/tr[@class=&quot;k-grid-edit-row k-state-selected&quot;]/td[@class=&quot;k-edit-cell&quot;]/span[@class=&quot;k-widget k-dropdown k-header&quot;]/span[@class=&quot;k-dropdown-wrap k-state-default k-state-focused k-state-hover&quot;]/span[@class=&quot;k-input&quot;]</value>
+      <webElementGuid>dc77ccb1-57d0-43e7-942b-68cb6ac23fe7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='grdSMEAttachment']/table/tbody/tr[3]/td[5]/span/span/span</value>
+      <webElementGuid>cadae601-ad90-4054-9e99-7d6b45c0f07b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gosi10.pdf'])[1]/following::span[3]</value>
+      <webElementGuid>338e6205-163c-4e56-9fef-b9ab0cf91127</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='نسخة من شهادة المؤسسة العامة للتآمينات الإجتماعية'])[1]/following::span[3]</value>
+      <webElementGuid>fe5b7219-a10d-4e1c-972f-f42d29e2a348</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/preceding::span[4]</value>
+      <webElementGuid>6d03ae5a-7b11-4b22-ac1d-2c465a626e47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الرجاء إرفاق شهادة إشتراك الغرفة التجارية'])[1]/preceding::span[6]</value>
+      <webElementGuid>e891f474-946a-437c-b728-1f9cede66823</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span/span</value>
+      <webElementGuid>89b61019-042d-459d-9cbb-6b621904a5fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '-- تحديد --' or . = '-- تحديد --')]</value>
+      <webElementGuid>c5ec0abc-a5e4-4b4d-beed-c30720daf33d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

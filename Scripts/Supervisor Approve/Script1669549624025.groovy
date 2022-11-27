@@ -17,5 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login Auditor'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.URL)
+
+WebUI.callTestCase(findTestCase('Login Supervisor'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('register/fill profile/header'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('Audior/Auditor Actions/My Bascket'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.enhancedClick(findTestObject('Audior/Auditor Actions/basket new register'))
+
+WebUI.click(findTestObject('Audior/Auditor Actions/select to take action'))
 

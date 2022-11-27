@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>basket new register</name>
+   <tag></tag>
+   <elementGuidId>2f728517-609d-4358-8592-e4bccd4a45f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='spn_NewRegistrationRequests']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#spn_NewRegistrationRequests</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>10e6156a-c341-4c9e-8be2-940ef0067825</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>spn_NewRegistrationRequests</value>
+      <webElementGuid>f1e7ce55-b7eb-4e98-90ef-976056ce4442</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+طلبات التسجيل الجديدة													</value>
+      <webElementGuid>ab2f306f-d90a-4384-96d1-63aa0f3e7964</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;spn_NewRegistrationRequests&quot;)</value>
+      <webElementGuid>6ab0ef4f-f532-4200-b9bb-dfe4bc659b75</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='spn_NewRegistrationRequests']</value>
+      <webElementGuid>cf761e54-7ee1-412a-a8fc-db3829cfaf66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//ul[@id='nav1']/li/ul/li[2]/a/span)[4]</value>
+      <webElementGuid>0f0c1ee5-2866-449b-9c6a-2437324fa86f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='طلبات لم يتم تعيينها'])[2]/following::span[1]</value>
+      <webElementGuid>3417777e-1503-433e-a065-a66591fc0cce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='سلتي'])[2]/following::span[2]</value>
+      <webElementGuid>168fd254-33a8-4090-a2b0-73fddbb6bbe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='طلبات تحديث الملفات'])[2]/preceding::span[1]</value>
+      <webElementGuid>8fb6c50c-ef54-40da-855c-f7b1b39cc2da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='طلبات إعادة التأهيل'])[2]/preceding::span[2]</value>
+      <webElementGuid>5fecdadf-1577-4d00-9808-9840ee46707a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/ul[3]/li/ul/li[2]/a/span</value>
+      <webElementGuid>e228b398-3f6b-4851-b9ca-ac0f393bf319</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'spn_NewRegistrationRequests' and (text() = '
+طلبات التسجيل الجديدة													' or . = '
+طلبات التسجيل الجديدة													')]</value>
+      <webElementGuid>94534742-551e-407c-bad1-12da14994fd0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

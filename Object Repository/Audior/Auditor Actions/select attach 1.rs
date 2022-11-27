@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select attach 1</name>
+   <tag></tag>
+   <elementGuidId>5a60db72-ad00-4962-9138-d2c8b052ed7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;grdSMEAttachment&quot;]/table/tbody/tr[1]/td[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.k-dropdown-wrap.k-state-default.k-state-focused</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c46b846f-1568-493d-99fc-d28f8bc5743d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>9046a7ab-1cf4-46c0-8a20-160a3eb4e6b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-dropdown-wrap k-state-default k-state-focused</value>
+      <webElementGuid>b79e8cd1-421c-44ab-a87c-3ac5a054372a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-- تحديد --</value>
+      <webElementGuid>c250232f-1102-4eb2-9045-8002aaf5b328</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;grdSMEAttachment&quot;)/table[@class=&quot;k-selectable&quot;]/tbody[1]/tr[@class=&quot;k-grid-edit-row k-state-selected&quot;]/td[@class=&quot;k-edit-cell&quot;]/span[@class=&quot;k-widget k-dropdown k-header&quot;]/span[@class=&quot;k-dropdown-wrap k-state-default k-state-focused&quot;]</value>
+      <webElementGuid>cb2f2425-8388-41be-9540-c3b57c8e5ac6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='grdSMEAttachment']/table/tbody/tr/td[5]/span/span</value>
+      <webElementGuid>12451efc-46f6-4c40-b019-285401c8080f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CR 1010225139.pdf'])[1]/following::span[2]</value>
+      <webElementGuid>3b477bef-f120-404c-8a9e-9f9a0e5c26e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='نسخة من السجل التجاري'])[1]/following::span[2]</value>
+      <webElementGuid>ad4ce22a-e0c6-4701-aa42-7e7efe351beb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::span[5]</value>
+      <webElementGuid>6e865a29-2dd1-41d8-8a45-36af573ab5de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/span/span</value>
+      <webElementGuid>23926ec9-4b38-4486-b485-5e531f598043</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '-- تحديد --' or . = '-- تحديد --')]</value>
+      <webElementGuid>4a1aca6e-e938-4284-b873-89c6a752ed15</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -16,6 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Login Supervisor'), [:], FailureHandling.STOP_ON_FAILURE)
+String currentPage = WebUI.getUrl()
+
+int currentTab = WebUI.getWindowIndex()
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+JavascriptExecutor js = ((driver) as JavascriptExecutor)
+
+js.executeScript('window.open();')
+
+WebUI.switchToWindowIndex(currentTab + 1)
+
+WebUI.navigateToUrl(GlobalVariable.URL)
+
+WebUI.callTestCase(findTestCase('Supervisor Approve'), [:], FailureHandling.STOP_ON_FAILURE)
 
