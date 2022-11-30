@@ -10,12 +10,12 @@
          <value>i.icon-bin.grdDelIcon.grdCursorStyle</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//i[@onclick='DeleteContactInformationRecord(this);']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@title = 'حذف السجل']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i[@onclick='DeleteContactInformationRecord(this);']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>39dc599e-7106-4013-877b-37d897dc3f42</webElementGuid>
+      <webElementGuid>785830c4-cf43-454e-a43f-832e5004d08a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>icon-bin grdDelIcon grdCursorStyle</value>
-      <webElementGuid>fb06f68c-5df4-4b06-adf2-6dea11b33bd5</webElementGuid>
+      <webElementGuid>3bcce5fa-c89c-43f2-8285-be650de725bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>title</name>
       <type>Main</type>
       <value>حذف السجل</value>
-      <webElementGuid>e2e2e739-ac38-4f19-90e5-1134ef654850</webElementGuid>
+      <webElementGuid>33453f13-6b5e-4609-88c3-1da414172b41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>DeleteContactInformationRecord(this);</value>
-      <webElementGuid>35d76b37-1fc7-4d1a-962f-f67fa2ff1d09</webElementGuid>
+      <webElementGuid>862b7559-2c2b-4b21-9e50-0aeac0cf73a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ContactInfoGrid&quot;)/div[@class=&quot;k-grid-content k-auto-scrollable&quot;]/table[1]/tbody[1]/tr[1]/td[18]/i[@class=&quot;icon-bin grdDelIcon grdCursorStyle&quot;]</value>
-      <webElementGuid>84147973-9cde-41c7-bcbe-746ae511544f</webElementGuid>
+      <webElementGuid>7f5fb304-8a1e-437d-8efd-81f9a9f3a1e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//i[@onclick='DeleteContactInformationRecord(this);']</value>
-      <webElementGuid>87c13beb-ff36-41d0-ab29-8b0f3d722fee</webElementGuid>
+      <webElementGuid>1dc3e96d-886d-477a-9dd3-75795d915733</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='ContactInfoGrid']/div[2]/table/tbody/tr/td[18]/i</value>
-      <webElementGuid>ee8071a5-cafd-4df5-8ec9-938ce5518260</webElementGuid>
+      <webElementGuid>00ab849a-317e-4301-95b3-7165ca441811</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[18]/i</value>
-      <webElementGuid>486a9476-71d3-446d-bfc0-41426af5ab9d</webElementGuid>
+      <webElementGuid>9b0b32dc-0079-44ff-b0a8-994bf8801e23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//i[@title = 'حذف السجل']</value>
-      <webElementGuid>8eeed8ef-119c-4509-82da-005aa7452523</webElementGuid>
+      <webElementGuid>99938cff-d73d-40d5-b420-e2ae7d8a5b56</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

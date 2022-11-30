@@ -17,10 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
 WebUI.setText(findTestObject('login/input__UserName'), GlobalVariable.Supervisor1)
 
 WebUI.setEncryptedText(findTestObject('login/input__Password'), GlobalVariable.SupervisorPW)

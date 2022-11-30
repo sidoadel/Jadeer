@@ -19,25 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login Auditor'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
-
 WebUI.mouseOver(findTestObject('register/fill profile/header'), FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.click(findTestObject('Audior/Auditor Actions/Focus'))
 //WebUI.click(findTestObject('Audior/Auditor Actions/assign'), FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.mouseOver(findTestObject('Audior/Auditor Actions/My Bascket'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('Audior/Auditor Actions/basket not assigned'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Audior/Auditor Actions/basket not assigned'))
 
 WebUI.click(findTestObject('Audior/Auditor Actions/assign'), FailureHandling.OPTIONAL)
 
+WebUI.waitForPageLoad(3)
+
 WebUI.mouseOver(findTestObject('register/fill profile/header'), FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.click(findTestObject('Audior/Auditor Actions/Focus'))
 //WebUI.click(findTestObject('Audior/Auditor Actions/assign'), FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.mouseOver(findTestObject('Audior/Auditor Actions/My Bascket'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('Audior/Auditor Actions/basket new register'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Audior/Auditor Actions/basket new register'))
 
 WebUI.click(findTestObject('Audior/Auditor Actions/select to take action'))
 
@@ -62,6 +66,14 @@ WebUI.click(findTestObject('Audior/Auditor Actions/accept attch4'), FailureHandl
 WebUI.doubleClick(findTestObject('Audior/Auditor Actions/select attch5'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Audior/Auditor Actions/Accept attach5'), FailureHandling.OPTIONAL)
+
+WebUI.doubleClick(findTestObject('Audior/Auditor Actions/select attch6'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Audior/Auditor Actions/accept attch6'), FailureHandling.OPTIONAL)
+
+WebUI.doubleClick(findTestObject('Audior/Auditor Actions/select attch7'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Audior/Auditor Actions/accept attch7'), FailureHandling.OPTIONAL)
 
 WebUI.scrollToElement(findTestObject('Audior/Auditor Actions/select action'), 0, FailureHandling.STOP_ON_FAILURE)
 

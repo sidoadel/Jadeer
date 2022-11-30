@@ -17,19 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
 WebUI.callTestCase(findTestCase('Login Supervisor'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('register/fill profile/header'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Audior/Auditor Actions/My Bascket'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('Audior/Auditor Actions/basket new register'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Audior/Auditor Actions/select to take action'))
+WebUI.click(findTestObject('Supervisor/Basket new reg'))
+
+WebUI.click(findTestObject('Supervisor/Select action'))
+
+WebUI.scrollToElement(findTestObject('Supervisor/Supervisor comment'), 0)
+
+WebUI.setText(findTestObject('Supervisor/Supervisor comment'), 'Approved')
+
+WebUI.click(findTestObject('Supervisor/Suppervisor Approve'))
+
+WebUI.delay(3)
+
+WebUI.mouseOver(findTestObject('register/fill profile/header'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('logout/select to logout'))
+
+WebUI.click(findTestObject('logout/Logout Super'))
 

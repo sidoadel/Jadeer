@@ -22,17 +22,15 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login SME'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.mouseOver(findTestObject('register/fill profile/popup'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Login Auditor'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('register/fill profile/Select company'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('register/fill profile/header'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('logout/select to logout'))
-
-WebUI.click(findTestObject('logout/logout - Author'))
+WebUI.click(findTestObject('register/fill profile/Select prof'), FailureHandling.CONTINUE_ON_FAILURE)
 

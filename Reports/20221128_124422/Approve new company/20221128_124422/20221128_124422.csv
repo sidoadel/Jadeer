@@ -1,0 +1,96 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Approve new company,Chrome 107.0.0.0,,,2022-11-28 12:44:29,2022-11-28 12:49:07,4m - 37.809s,FAILED
+,,,,,,,
+Test Cases/Company New Reg -Update,Chrome 107.0.0.0,,,2022-11-28 12:44:30,2022-11-28 12:47:32,3m - 2.206s,FAILED
+"callTestCase(findTestCase(""Login SME""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:44:32,2022-11-28 12:45:08,35.613s,PASSED
+"mouseOver(findTestObject(""register/fill profile/popup""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:08,2022-11-28 12:45:10,2.196s,PASSED
+"click(findTestObject(""register/fill profile/Select company""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:10,2022-11-28 12:45:18,8.562s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 107.0.0.0,,,2022-11-28 12:45:18,2022-11-28 12:45:19,0.365s,PASSED
+"mouseOver(findTestObject(""register/fill profile/header""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:19,2022-11-28 12:45:20,0.943s,PASSED
+"click(findTestObject(""register/fill profile/Select prof updated""), CONTINUE_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:20,2022-11-28 12:45:20,0.842s,PASSED
+"waitForElementVisible(findTestObject(""register/fill profile/input__CompanyName""), 10)",Chrome 107.0.0.0,,,2022-11-28 12:45:20,2022-11-28 12:45:27,6.930s,PASSED
+"setText(findTestObject(""register/fill profile/input__CompanyName""), ""test company"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:27,2022-11-28 12:45:29,1.335s,PASSED
+"setText(findTestObject(""register/fill profile/input__BrandName""), ""brand"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:29,2022-11-28 12:45:30,1.420s,PASSED
+"setText(findTestObject(""register/fill profile/input__BrandNameAr""), ""براند"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:30,2022-11-28 12:45:31,1.285s,PASSED
+"click(findTestObject(""register/fill profile/select lan""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:31,2022-11-28 12:45:32,0.976s,PASSED
+"click(findTestObject(""register/fill profile/lang arabic""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:32,2022-11-28 12:45:33,0.852s,PASSED
+"click(findTestObject(""register/fill profile/next 1""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:33,2022-11-28 12:45:34,0.922s,PASSED
+"scrollToElement(findTestObject(""register/fill profile/Page_/scroll""), 2, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:34,2022-11-28 12:45:35,1.040s,PASSED
+"click(findTestObject(""register/fill profile/select city""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:35,2022-11-28 12:45:36,0.799s,PASSED
+"click(findTestObject(""register/fill profile/city""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:36,2022-11-28 12:45:37,0.878s,PASSED
+"setText(findTestObject(""register/fill profile/Page_/input__District""), ""test "", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:37,2022-11-28 12:45:38,1.365s,PASSED
+"setText(findTestObject(""register/fill profile/input__BuildingNumber""), ""4544"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:38,2022-11-28 12:45:40,1.570s,PASSED
+"setText(findTestObject(""register/fill profile/input__StreetAddress""), ""Street"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:40,2022-11-28 12:45:41,1.506s,PASSED
+"setText(findTestObject(""register/fill profile/input__StreetAddressAr""), ""شارع ابو حمد"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:41,2022-11-28 12:45:43,1.585s,PASSED
+"setText(findTestObject(""register/fill profile/input__GeoLocation""), ""https://www.google.com/maps?cid=18374608280476341734"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:43,2022-11-28 12:45:45,2.178s,PASSED
+"click(findTestObject(""register/fill profile/next2""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:45,2022-11-28 12:45:46,0.859s,PASSED
+"scrollToElement(findTestObject(""register/fill profile/Page_/next3""), 0, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:46,2022-11-28 12:45:47,0.914s,PASSED
+"click(findTestObject(""register/fill profile/Page_/next3""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:47,2022-11-28 12:45:48,0.977s,PASSED
+"scrollToElement(findTestObject(""register/fill profile/Page_/scroll""), 0, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:48,2022-11-28 12:45:49,1.634s,PASSED
+"click(findTestObject(""register/fill profile/Page_/label_""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:49,2022-11-28 12:45:50,0.638s,PASSED
+"click(findTestObject(""register/fill profile/Page_/input__btn_SAGIA_Save""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:50,2022-11-28 12:45:51,0.864s,PASSED
+"scrollToElement(findTestObject(""register/fill profile/Page_/scroll""), 0, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:51,2022-11-28 12:45:53,1.682s,PASSED
+"click(findTestObject(""register/fill profile/Page_/input__btn_ZAKAT_Save""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:53,2022-11-28 12:45:53,0.726s,PASSED
+delay(5),Chrome 107.0.0.0,,,2022-11-28 12:45:53,2022-11-28 12:45:58,5.020s,PASSED
+"scrollToElement(findTestObject(""register/fill profile/Page_/scroll""), 5, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:45:58,2022-11-28 12:45:59,0.554s,PASSED
+"waitForElementVisible(findTestObject(""register/fill profile/label_company4""), 5)",Chrome 107.0.0.0,,,2022-11-28 12:45:59,2022-11-28 12:46:00,0.605s,PASSED
+"click(findTestObject(""register/fill profile/label_company4""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:00,2022-11-28 12:46:00,0.682s,PASSED
+"setText(findTestObject(""register/fill profile/Page_/input__LocalContentScore""), ""4"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:00,2022-11-28 12:46:01,1.100s,PASSED
+"click(findTestObject(""register/fill profile/Page_/input__btn_CompanySize_Save""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:01,2022-11-28 12:46:02,0.902s,PASSED
+"scrollToElement(findTestObject(""register/fill profile/Page_/scroll""), 0, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:02,2022-11-28 12:46:03,1.078s,PASSED
+"scrollToElement(findTestObject(""register/fill profile/Page_/add contact""), 0, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:03,2022-11-28 12:46:04,0.691s,PASSED
+"click(findTestObject(""register/prev buttons/delete contact""), OPTIONAL)",Chrome 107.0.0.0,,,2022-11-28 12:46:04,2022-11-28 12:46:05,0.715s,PASSED
+"click(findTestObject(""register/fill profile/Page_/add contact""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:05,2022-11-28 12:46:05,0.719s,PASSED
+"setText(findTestObject(""register/fill profile/Page_/input__ContactInformationName""), ""test"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:05,2022-11-28 12:46:07,1.845s,PASSED
+"setText(findTestObject(""register/fill profile/Page_/input__ContactInformationNameAr""), ""اسم"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:07,2022-11-28 12:46:08,1.198s,PASSED
+"setText(findTestObject(""register/fill profile/Page_/input__ContactInformationJobTitle""), ""QA"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:08,2022-11-28 12:46:10,1.216s,PASSED
+"setText(findTestObject(""register/fill profile/Page_/input__ContactInformationJobTitleAr""), ""مهندس"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:10,2022-11-28 12:46:11,1.304s,PASSED
+"waitForElementVisible(findTestObject(""register/fill profile/Page_/conact type""), 3, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:11,2022-11-28 12:46:12,0.620s,PASSED
+"click(findTestObject(""register/fill profile/Page_/conact type""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:12,2022-11-28 12:46:12,0.708s,PASSED
+"click(findTestObject(""register/fill profile/Page_/li_""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:12,2022-11-28 12:46:13,1.003s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:13,2022-11-28 12:46:18,5.019s,PASSED
+"setText(findTestObject(""register/fill profile/Page_/input__ContactInformationEmail""), ""sayed@gmail.com"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:18,2022-11-28 12:46:20,1.397s,PASSED
+"waitForElementVisible(findTestObject(""register/fill profile/Page_/country code""), 3, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:20,2022-11-28 12:46:20,0.563s,PASSED
+"click(findTestObject(""register/fill profile/Page_/country code""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:20,2022-11-28 12:46:21,1.108s,PASSED
+"click(findTestObject(""register/fill profile/Page_/li_(20)""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:21,2022-11-28 12:46:22,0.752s,PASSED
+"setText(findTestObject(""register/fill profile/Page_/input__ContactInformationMobile""), ""01552020596"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:22,2022-11-28 12:46:24,1.488s,PASSED
+"click(findTestObject(""register/fill profile/Page_/savecontacr""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:24,2022-11-28 12:46:24,0.770s,PASSED
+"click(findTestObject(""register/fill profile/Page_/save7""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:24,2022-11-28 12:46:25,1.018s,PASSED
+"scrollToElement(findTestObject(""register/fill profile/Page_/scroll""), 0, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:25,2022-11-28 12:46:27,1.047s,PASSED
+"click(findTestObject(""register/fill profile//Edit""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:27,2022-11-28 12:46:27,0.684s,PASSED
+"setText(findTestObject(""register/fill profile//Ownership_Email""), ""s@gmail.com"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:27,2022-11-28 12:46:30,2.384s,PASSED
+"click(findTestObject(""register/fill profile//select 1""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:30,2022-11-28 12:46:31,1.323s,PASSED
+"click(findTestObject(""register/fill profile/li_(968)""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:31,2022-11-28 12:46:32,0.889s,PASSED
+"setText(findTestObject(""register/fill profile//Ownership_Phone""), ""300411696"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:32,2022-11-28 12:46:33,1.399s,PASSED
+"click(findTestObject(""register/fill profile//select2""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:33,2022-11-28 12:46:34,1.139s,PASSED
+"click(findTestObject(""register/fill profile/li_(971)""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:34,2022-11-28 12:46:35,0.711s,PASSED
+"setText(findTestObject(""register/fill profile//Ownership_Mobile""), ""300411696"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:35,2022-11-28 12:46:36,1.398s,PASSED
+"click(findTestObject(""register/fill profile/Update""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:36,2022-11-28 12:46:37,0.766s,PASSED
+"scrollToElement(findTestObject(""register/fill profile/Page_/focus2""), 5)",Chrome 107.0.0.0,,,2022-11-28 12:46:37,2022-11-28 12:46:38,0.894s,PASSED
+"focus(findTestObject(""register/fill profile/Page_/input__ManagementDetails""))",Chrome 107.0.0.0,,,2022-11-28 12:46:38,2022-11-28 12:46:39,0.779s,PASSED
+"click(findTestObject(""register/fill profile/Page_/input__ManagementDetails""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:39,2022-11-28 12:46:40,0.681s,PASSED
+"setText(findTestObject(""register/fill profile/Page_/input__OwnershipDetailsName""), ""Ashraf fawzy"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:40,2022-11-28 12:46:41,1.164s,PASSED
+"setText(findTestObject(""register/fill profile/Page_/input__OwnershipDetailsPosition""), ""مهندس مدني"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:41,2022-11-28 12:46:42,1.364s,PASSED
+"setText(findTestObject(""register/fill profile/Page_/input__OwnershipDetailsEmail""), ""s@gmail.com"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:42,2022-11-28 12:46:43,1.405s,PASSED
+"click(findTestObject(""register/fill profile/Page_/select3""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:43,2022-11-28 12:46:45,1.074s,PASSED
+"click(findTestObject(""register/fill profile/li_(61)""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:45,2022-11-28 12:46:45,0.809s,PASSED
+"setText(findTestObject(""register/fill profile/Page_/input__OwnershipDetailsPhone""), ""300411699"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:45,2022-11-28 12:46:47,1.398s,PASSED
+"click(findTestObject(""register/fill profile/Page_/Save8""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:47,2022-11-28 12:46:47,0.674s,PASSED
+"scrollToElement(findTestObject(""register/fill profile/Page_/scroll""), 0, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:47,2022-11-28 12:46:48,1.024s,PASSED
+"click(findTestObject(""register/fill profile/select4""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:48,2022-11-28 12:46:49,0.652s,PASSED
+"click(findTestObject(""register/fill profile/slect4in""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:49,2022-11-28 12:46:50,0.811s,PASSED
+"click(findTestObject(""register/fill profile/New Folder/label_mother yes""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:50,2022-11-28 12:46:51,0.766s,PASSED
+"waitForElementVisible(findTestObject(""register/fill profile/input__CompanyHierarchy_ParentCompanyName""), 2)",Chrome 107.0.0.0,,,2022-11-28 12:46:51,2022-11-28 12:46:51,0.637s,PASSED
+"setText(findTestObject(""register/fill profile/input__CompanyHierarchy_ParentCompanyName""), ""الشركه العربيه"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:51,2022-11-28 12:46:53,1.213s,PASSED
+"click(findTestObject(""register/fill profile/New Folder/select5""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:53,2022-11-28 12:46:54,0.953s,PASSED
+"click(findTestObject(""register/fill profile/New Folder/5in""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:54,2022-11-28 12:46:54,0.773s,PASSED
+"setText(findTestObject(""register/fill profile/input__txtCompanyHierarchy_City""), ""جده"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:54,2022-11-28 12:46:56,1.290s,PASSED
+"click(findTestObject(""register/fill profile/Page_/save9""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:56,2022-11-28 12:46:57,1.070s,PASSED
+"scrollToElement(findTestObject(""register/fill profile/Page_/scroll""), 2, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:46:57,2022-11-28 12:46:58,1.085s,PASSED
+"click(findTestObject(""register/prev buttons/delete wakel""))",Chrome 107.0.0.0,,,2022-11-28 12:46:58,2022-11-28 12:47:30,31.859s,FAILED
+,,,,,,,
+Test Cases/Auditor new request- small comp-Approve,Chrome 107.0.0.0,,,2022-11-28 12:47:32,2022-11-28 12:48:51,1m - 19.232s,FAILED
+"callTestCase(findTestCase(""Login Auditor""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:47:34,2022-11-28 12:48:49,1m - 15.196s,FAILED
+,,,,,,,
+Test Cases/Supervisor Approve,Chrome 107.0.0.0,,,2022-11-28 12:48:51,2022-11-28 12:49:07,15.590s,FAILED
+"callTestCase(findTestCase(""Login Supervisor""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:48:52,2022-11-28 12:49:05,12.877s,FAILED

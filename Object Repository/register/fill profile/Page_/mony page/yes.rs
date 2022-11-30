@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>yes</name>
+   <tag></tag>
+   <elementGuidId>40832371-1760-4c44-a07c-3afdb6194655</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dvClassification']/div/div/div[2]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.fl-right.radio-toolbar.no-margin > label.padding10-radio</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>970b40f7-ad33-4a78-b7cb-9e405db5e80c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>padding10-radio</value>
+      <webElementGuid>62eabeb2-5acf-4531-91d9-592e1b5102c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>tech_Rdbtn_Yes</value>
+      <webElementGuid>0c92d1a3-490f-45c8-b718-ed79e6e29d28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>نعم</value>
+      <webElementGuid>161a29b3-e49e-4495-b60a-139eda79817b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FinanceDiv&quot;)/div[@id=&quot;dvClassification&quot;]/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-md-12 col-lg-12 col-sm-12 col-xs-12&quot;]/div[@class=&quot;col-md-12 col-lg-12 col-sm-12 col-xs-12 fl-right radio-toolbar no-padding-h no-margin&quot;]/div[@class=&quot;fl-right radio-toolbar no-margin&quot;]/label[@class=&quot;padding10-radio&quot;]</value>
+      <webElementGuid>f8e5522b-65ef-4be6-82db-440b243967b7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dvClassification']/div/div/div[2]/div/label</value>
+      <webElementGuid>1cf8f736-f234-4565-92e7-e43d4fd8aa20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='هل تصدر مؤسستك البيان المالي السنوي؟'])[1]/following::label[1]</value>
+      <webElementGuid>c445704d-666d-4e4d-8361-d1ae89423c9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='المالية'])[2]/following::label[2]</value>
+      <webElementGuid>71d10178-533e-4d98-903b-f9d74b9f143d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='لا'])[4]/preceding::label[1]</value>
+      <webElementGuid>d6458103-a9d9-42c3-92ec-7b6ce783da5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='السبب'])[1]/preceding::label[2]</value>
+      <webElementGuid>e927456b-ded6-442d-acb3-bde01b11802c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/label</value>
+      <webElementGuid>a87f7656-ad30-45f0-b0ea-b2005edbfe46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'نعم' or . = 'نعم')]</value>
+      <webElementGuid>38dbc3e9-7ec3-422f-9def-ebcf25589c0a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>2f728517-609d-4358-8592-e4bccd4a45f9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='spn_NewRegistrationRequests']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#spn_NewRegistrationRequests</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='NewRegistrationRequests']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>10e6156a-c341-4c9e-8be2-940ef0067825</webElementGuid>
+      <webElementGuid>5d73170c-39c5-475d-aa76-c6e3b9e8044c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>spn_NewRegistrationRequests</value>
-      <webElementGuid>f1e7ce55-b7eb-4e98-90ef-976056ce4442</webElementGuid>
+      <webElementGuid>db42a2b3-d289-4b55-9768-372c7c9021e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <type>Main</type>
       <value>
 طلبات التسجيل الجديدة													</value>
-      <webElementGuid>ab2f306f-d90a-4384-96d1-63aa0f3e7964</webElementGuid>
+      <webElementGuid>6f17a998-599d-43a6-a513-674ce7207693</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;spn_NewRegistrationRequests&quot;)</value>
-      <webElementGuid>6ab0ef4f-f532-4200-b9bb-dfe4bc659b75</webElementGuid>
+      <webElementGuid>876dfe73-3284-4294-a18a-0bd3c04e71a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='spn_NewRegistrationRequests']</value>
-      <webElementGuid>cf761e54-7ee1-412a-a8fc-db3829cfaf66</webElementGuid>
+      <webElementGuid>29db4e0f-756e-461e-b166-4b96ab925a73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//ul[@id='nav1']/li/ul/li[2]/a/span)[4]</value>
-      <webElementGuid>0f0c1ee5-2866-449b-9c6a-2437324fa86f</webElementGuid>
+      <webElementGuid>53749c36-6f7e-42ff-8de5-6f49948d7d87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='طلبات لم يتم تعيينها'])[2]/following::span[1]</value>
-      <webElementGuid>3417777e-1503-433e-a065-a66591fc0cce</webElementGuid>
+      <webElementGuid>53b15e10-0de1-4732-be8e-5b109dff1108</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='سلتي'])[2]/following::span[2]</value>
-      <webElementGuid>168fd254-33a8-4090-a2b0-73fddbb6bbe7</webElementGuid>
+      <webElementGuid>c6840633-5bd7-41bc-91d8-b85bb580b325</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='طلبات تحديث الملفات'])[2]/preceding::span[1]</value>
-      <webElementGuid>8fb6c50c-ef54-40da-855c-f7b1b39cc2da</webElementGuid>
+      <webElementGuid>565f4ec7-ffd9-466e-9cd6-529c95f1e7e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='طلبات إعادة التأهيل'])[2]/preceding::span[2]</value>
-      <webElementGuid>5fecdadf-1577-4d00-9808-9840ee46707a</webElementGuid>
+      <webElementGuid>16f1405c-0ecf-449c-b3d1-c761499a147f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/div/ul[3]/li/ul/li[2]/a/span</value>
-      <webElementGuid>e228b398-3f6b-4851-b9ca-ac0f393bf319</webElementGuid>
+      <webElementGuid>ec921391-265d-417a-b7f2-ff595f30fc13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <value>//span[@id = 'spn_NewRegistrationRequests' and (text() = '
 طلبات التسجيل الجديدة													' or . = '
 طلبات التسجيل الجديدة													')]</value>
-      <webElementGuid>94534742-551e-407c-bad1-12da14994fd0</webElementGuid>
+      <webElementGuid>2ccbc117-b0fe-4411-8800-02f32b0fd4ad</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>delete wakel</name>
+   <tag></tag>
+   <elementGuidId>9ed59ab6-c00e-4916-966a-9e84920e9b6d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.k-button.k-state-hover > span.k-select</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='ddlSMEClassifications_taglist']/li/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3155cf30-ebed-4721-92c4-b54b93786c7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>00e785d7-2e94-4b68-8186-d239809a5f47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>delete</value>
+      <webElementGuid>a6041662-631b-4a9e-a72f-1e30c58b7601</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-select</value>
+      <webElementGuid>3f8b5bbb-2bd4-441e-b34f-301e89eb3d71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ddlSMEClassifications_taglist&quot;)/li[@class=&quot;k-button k-state-hover&quot;]/span[@class=&quot;k-select&quot;]</value>
+      <webElementGuid>f94324f3-1109-4331-b98f-b922d55ab7df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='ddlSMEClassifications_taglist']/li[3]/span[2]</value>
+      <webElementGuid>ed3f7622-b505-48f0-a0b0-d51eeea75415</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='وكيل'])[1]/following::span[1]</value>
+      <webElementGuid>ff9048b8-9031-4471-8bfa-13dabc292f91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='موزع'])[1]/following::span[4]</value>
+      <webElementGuid>dc354648-206c-470f-bfbf-28262a68c208</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='قائمة الأنشطة'])[1]/preceding::span[6]</value>
+      <webElementGuid>73cc96bd-3779-4eb0-875f-6078e552b9c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/span[2]</value>
+      <webElementGuid>ba6a3645-ab63-42e9-a446-e58b9e5ebb46</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

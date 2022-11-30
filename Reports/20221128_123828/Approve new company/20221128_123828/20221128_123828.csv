@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Approve new company,Chrome 107.0.0.0,,,2022-11-28 12:38:34,2022-11-28 12:41:02,2m - 27.919s,FAILED
+,,,,,,,
+Test Cases/Company New Reg -Update,Chrome 107.0.0.0,,,2022-11-28 12:38:35,2022-11-28 12:40:30,1m - 55.514s,FAILED
+"callTestCase(findTestCase(""Login SME""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:38:36,2022-11-28 12:39:07,30.425s,PASSED
+"mouseOver(findTestObject(""register/fill profile/popup""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:39:07,2022-11-28 12:39:09,1.626s,PASSED
+"click(findTestObject(""register/fill profile/Select company""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:39:09,2022-11-28 12:39:22,13.630s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 107.0.0.0,,,2022-11-28 12:39:22,2022-11-28 12:39:22,0.316s,PASSED
+"mouseOver(findTestObject(""register/fill profile/header""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:39:22,2022-11-28 12:39:23,0.847s,PASSED
+"click(findTestObject(""register/fill profile/Select prof updated""), CONTINUE_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:39:23,2022-11-28 12:39:55,31.811s,FAILED
+"waitForElementVisible(findTestObject(""register/fill profile/input__CompanyName""), 10)",Chrome 107.0.0.0,,,2022-11-28 12:39:55,2022-11-28 12:40:07,11.562s,PASSED
+"setText(findTestObject(""register/fill profile/input__CompanyName""), ""test company"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:40:07,2022-11-28 12:40:28,21.470s,FAILED
+,,,,,,,
+Test Cases/Auditor new request- small comp-Approve,Chrome 107.0.0.0,,,2022-11-28 12:40:30,2022-11-28 12:40:46,15.946s,FAILED
+"callTestCase(findTestCase(""Login Auditor""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:40:31,2022-11-28 12:40:44,13.157s,FAILED
+,,,,,,,
+Test Cases/Supervisor Approve,Chrome 107.0.0.0,,,2022-11-28 12:40:46,2022-11-28 12:41:02,15.791s,FAILED
+"callTestCase(findTestCase(""Login Supervisor""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-28 12:40:47,2022-11-28 12:41:00,13.066s,FAILED
