@@ -43,3 +43,5 @@ WebUI.click(findTestObject('logout/select to logout'))
 
 WebUI.click(findTestObject('logout/Logout Super'))
 
+WebUI.closeBrowser()
+

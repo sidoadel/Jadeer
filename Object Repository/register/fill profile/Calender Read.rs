@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__expdatepicker</name>
+   <name>Calender Read</name>
    <tag></tag>
-   <elementGuidId>22b36594-6310-43f6-bf33-526eb7b97a17</elementGuidId>
+   <elementGuidId>3c00849a-7c1d-40d3-9a70-b437ac42ae69</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;expdatepicker&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @class = 'expdatepicker k-input' and @name = 'expdatepicker' and @aria-disabled = 'false']</value>
+         <value>id(&quot;AttachmentDetailsgrid_active_cell&quot;)/div[@class=&quot;pull-left mr-10 br-less&quot;]/span[@class=&quot;k-widget k-datepicker k-header expdatepicker&quot;]/span[@class=&quot;k-picker-wrap k-state-default k-state-focused&quot;]/input[@class=&quot;expdatepicker k-input&quot;][count(. | //input[@type = 'text' and @class = 'expdatepicker k-input' and @onkeydown = 'javascript:return false;' and @name = 'expdatepicker' and @data-role = 'datepicker' and @role = 'combobox' and @aria-expanded = 'false' and @aria-disabled = 'false']) = count(//input[@type = 'text' and @class = 'expdatepicker k-input' and @onkeydown = 'javascript:return false;' and @name = 'expdatepicker' and @data-role = 'datepicker' and @role = 'combobox' and @aria-expanded = 'false' and @aria-disabled = 'false'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@class='k-state-selected']//input[@name='expdatepicker']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>span.k-picker-wrap.k-state-default.k-state-focused > input[name=&quot;expdatepicker&quot;]</value>
+         <value>//input[@name='expdatepicker']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3d17c797-8efc-4929-b2af-5aa7b450d09a</webElementGuid>
+      <webElementGuid>a0dbf714-e422-4018-92e0-78557c8e590d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>a98ff57a-c890-4fcd-a544-6ab7e2d9c8e3</webElementGuid>
+      <webElementGuid>52cd8c43-82f3-4a7d-831a-8cddddaf6bf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,15 +42,15 @@
       <name>class</name>
       <type>Main</type>
       <value>expdatepicker k-input</value>
-      <webElementGuid>26003992-43da-42dd-b1eb-3c40d6cd203a</webElementGuid>
+      <webElementGuid>3e22b8a2-911b-4a12-a38e-f5c7a3a74a0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onkeydown</name>
       <type>Main</type>
       <value>javascript:return false;</value>
-      <webElementGuid>fcb1b6e9-6877-4fde-a362-56ca2403b153</webElementGuid>
+      <webElementGuid>336eb21c-4d66-44f6-802c-8b1719c97f25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,31 +58,31 @@
       <name>name</name>
       <type>Main</type>
       <value>expdatepicker</value>
-      <webElementGuid>a8073143-7ab6-4b16-bdab-1e308cc33087</webElementGuid>
+      <webElementGuid>7a13cca5-2522-4b3c-b761-62e5d7b93674</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-role</name>
       <type>Main</type>
       <value>datepicker</value>
-      <webElementGuid>604c641f-7493-4c3b-bcf0-2709003871c8</webElementGuid>
+      <webElementGuid>7d9b174a-6703-42b7-8e1a-5148398890bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>combobox</value>
-      <webElementGuid>c102b20f-ba1f-4cbd-8925-ade62bf8fa21</webElementGuid>
+      <webElementGuid>57f1627a-b58a-4510-baaf-37bb0a024dda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>67166aa8-6c99-4e54-b9c6-3b962bdd7c23</webElementGuid>
+      <webElementGuid>ccbda68c-7e1a-4310-aef1-cbe1dbff127f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -90,23 +90,23 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e89d6094-9073-4978-b82d-7580caa09081</webElementGuid>
+      <webElementGuid>9a0d2cb9-0bd8-434a-8544-d9c768daae35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;AttachmentDetailsgrid_active_cell&quot;)/div[@class=&quot;pull-left mr-10 br-less&quot;]/span[@class=&quot;k-widget k-datepicker k-header expdatepicker&quot;]/span[@class=&quot;k-picker-wrap k-state-default k-state-focused&quot;]/input[@class=&quot;expdatepicker k-input&quot;]</value>
-      <webElementGuid>6424d3b0-3572-47af-88e9-33352326037f</webElementGuid>
+      <webElementGuid>3ee143b4-ed47-489b-ae26-81e7d6bbdfa6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@name='expdatepicker'])[2]</value>
-      <webElementGuid>1b5a4c13-e416-47bb-96c3-e9340de00553</webElementGuid>
+      <value>//input[@name='expdatepicker']</value>
+      <webElementGuid>db208029-5175-444f-81d1-437892874114</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,15 +114,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//td[@id='AttachmentDetailsgrid_active_cell']/div/span/span/input</value>
-      <webElementGuid>7f6cd1ac-1482-4fa5-a836-c20dbf0b131c</webElementGuid>
+      <webElementGuid>9ed0869c-9ee2-4dad-8abc-b8a4b8efa1b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[5]/div/span/span/input</value>
-      <webElementGuid>e2d3fd0f-9377-4b60-90bd-37cb1fc32d47</webElementGuid>
+      <value>//td[5]/div/span/span/input</value>
+      <webElementGuid>0072de62-1b63-49ee-b730-ec2f53335ade</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'expdatepicker']</value>
-      <webElementGuid>e9318e48-3894-43a2-9c9b-fae0a5de0b7b</webElementGuid>
+      <webElementGuid>b36e7025-65b9-4fd8-8bd4-d30211558f55</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

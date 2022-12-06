@@ -16,10 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Login SME'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('register/fill profile/popup'), FailureHandling.STOP_ON_FAILURE)
+WebUI.focus(findTestObject('register/fill profile/popup'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('register/fill profile/Select company'), FailureHandling.STOP_ON_FAILURE)
 
@@ -150,7 +151,17 @@ WebUI.scrollToElement(findTestObject('register/fill profile/Page_/focus2'), 5)
 
 WebUI.focus(findTestObject('register/fill profile/Page_/input__ManagementDetails'))
 
-WebUI.click(findTestObject('register/fill profile/Page_/input__ManagementDetails'), FailureHandling.STOP_ON_FAILURE)
+int timeout = 1
+
+TestObject object1 = findTestObject('register/fill profile/Page_/input__OwnershipDetailsName')
+
+TestObject object2 = findTestObject('register/fill profile/Page_/input__ManagementDetails')
+
+if (WebUI.verifyElementPresent(object1, timeout, FailureHandling.STOP_ON_FAILURE)) {
+    WebUI.doubleClick(object2)
+} else {
+    WebUI.click(object2)
+}
 
 WebUI.setText(findTestObject('register/fill profile/Page_/input__OwnershipDetailsName'), 'Ashraf fawzy', FailureHandling.STOP_ON_FAILURE)
 
@@ -222,11 +233,11 @@ WebUI.click(findTestObject('register/fill profile/Calender Input'))
 
 WebUI.click(findTestObject('register/fill profile/New Folder/calendar attach'))
 
-WebUI.click(findTestObject('register/fill profile/New Folder/calender right'))
+WebUI.waitForElementVisible(findTestObject('register/fill profile/New Folder/calender right'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('register/fill profile/New Folder/calender right'))
 
-WebUI.waitForElementVisible(findTestObject('register/fill profile/New Folder/calender right'), 2)
+WebUI.click(findTestObject('register/fill profile/New Folder/calender right'))
 
 WebUI.click(findTestObject('register/fill profile/New Folder/calender day'))
 
@@ -380,5 +391,5 @@ WebUI.click(findTestObject('logout/select to logout'))
 
 WebUI.click(findTestObject('logout/logout-SME'))
 
-WebUI.callTestCase(findTestCase('open new Tab auditor'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.closeBrowser()
 
