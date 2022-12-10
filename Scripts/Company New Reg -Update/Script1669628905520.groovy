@@ -227,15 +227,10 @@ WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 2, F
 
 WebUI.click(findTestObject('register/prev buttons/delet attch'), FailureHandling.OPTIONAL)
 
-WebUI.waitForPageLoad(3)
-
-WebUI.click(findTestObject('register/fill profile/Calender Input'))
+WebUI.modifyObjectProperty(findTestObject('register/fill profile/New Folder/calendar attach'), 'Xpath', 'not equal', '//td[@id=\'AttachmentDetailsgrid_active_cell\']/div/span/span/span/span', 
+    false)
 
 WebUI.click(findTestObject('register/fill profile/New Folder/calendar attach'))
-
-WebUI.waitForElementVisible(findTestObject('register/fill profile/New Folder/calender right'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('register/fill profile/New Folder/calender right'))
 
 WebUI.click(findTestObject('register/fill profile/New Folder/calender right'))
 
@@ -333,6 +328,8 @@ WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_y
 
 WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (14)'))
 
+WebUI.click(findTestObject('register/fill profile/Btn question'))
+
 WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('register/fill profile/New Folder//label_'), 5, FailureHandling.STOP_ON_FAILURE)
@@ -391,5 +388,5 @@ WebUI.click(findTestObject('logout/select to logout'))
 
 WebUI.click(findTestObject('logout/logout-SME'))
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('open new Tab auditor'), [:], FailureHandling.STOP_ON_FAILURE)
 

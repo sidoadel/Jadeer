@@ -43,12 +43,6 @@ WebUI.modifyObjectProperty(findTestObject('register/fill profile/New Folder/cale
 
 WebUI.click(findTestObject('register/fill profile/New Folder/calendar attach'))
 
-//WebUI.executeJavaScript('document.getElementsByClassName(\'expdatepicker k-input\')[11].removeAttribute(\'readonly\');', null)
-//WebUI.sendKeys(findTestObject('register/fill profile/Calender Read'), '03-05-2023')
-WebUI.waitForElementVisible(findTestObject('register/fill profile/New Folder/calender right'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('register/fill profile/New Folder/calender right'))
-
 WebUI.click(findTestObject('register/fill profile/New Folder/calender right'))
 
 WebUI.click(findTestObject('register/fill profile/New Folder/calender day'))
@@ -144,6 +138,8 @@ WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_y
 WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (13)'))
 
 WebUI.click(findTestObject('register/fill profile/New Folder/final Page_/label_yes - Copy (14)'))
+
+WebUI.click(findTestObject('register/fill profile/Btn question'))
 
 WebUI.scrollToElement(findTestObject('register/fill profile/Page_/scroll'), 5, FailureHandling.STOP_ON_FAILURE)
 

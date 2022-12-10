@@ -10,11 +10,15 @@
          <value>div.ui-dialog-buttonset > button.ui-button.ui-corner-all.ui-widget</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'نعم' or . = 'نعم')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[22]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b86948f7-3edf-43ea-88fe-2bec24db2325</webElementGuid>
+      <webElementGuid>89e0ccaf-a706-4e15-9807-f24c7c9d52c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>836c98f8-6d7b-480f-a8a3-873fa0a815c9</webElementGuid>
+      <webElementGuid>893553d1-aac5-4c00-b00d-4ebdce6fdb7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-button ui-corner-all ui-widget</value>
-      <webElementGuid>b97fb357-e109-48fd-be4e-e95b5cc73445</webElementGuid>
+      <webElementGuid>6ba36f61-12f0-4e83-b61f-c526ee9c5e0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>نعم</value>
-      <webElementGuid>43c35782-ef30-42cb-9799-cbf12ecaf019</webElementGuid>
+      <webElementGuid>b5c4cc1f-d5a7-4e52-bc8b-150f03c08451</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MainBody&quot;)/div[@class=&quot;ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-dialog-buttons ui-draggable&quot;]/div[@class=&quot;ui-dialog-buttonpane ui-widget-content ui-helper-clearfix&quot;]/div[@class=&quot;ui-dialog-buttonset&quot;]/button[@class=&quot;ui-button ui-corner-all ui-widget&quot;]</value>
-      <webElementGuid>a801a290-466c-48bb-923d-8a0b095f39aa</webElementGuid>
+      <webElementGuid>707c1f9a-6b5c-4b3a-8a03-ce95b06d650d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[22]</value>
-      <webElementGuid>dc4b4a45-06bc-4b86-a750-0e6c22284448</webElementGuid>
+      <webElementGuid>f161c9b3-e31d-4c4b-80d5-d21dd36b88b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//body[@id='MainBody']/div[34]/div[3]/div/button</value>
-      <webElementGuid>32522c7e-4840-47be-b6b5-54653fbae202</webElementGuid>
+      <webElementGuid>634f0983-91f6-436d-a457-708d869469fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='هل أنت متأكد أنك تريد إرسال؟'])[1]/following::button[1]</value>
-      <webElementGuid>e4b07fa5-9410-48e7-a43c-8f266f086292</webElementGuid>
+      <webElementGuid>41e7450d-ab92-4572-8bd8-30b07f8d322a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::button[1]</value>
-      <webElementGuid>6f485e9b-ed5f-4b5a-8618-c2e2e2badc36</webElementGuid>
+      <webElementGuid>273da9fb-3fee-4cba-b5dc-2c3eb4574ec5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='لا'])[8]/preceding::button[1]</value>
-      <webElementGuid>2dfdcb46-9b16-4a22-ab91-2a0de9d44ecc</webElementGuid>
+      <webElementGuid>2e914aa5-8785-46c3-8466-b104587cea53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[34]/div[3]/div/button</value>
-      <webElementGuid>b99df063-a9c1-471a-bd0e-064f0b21b145</webElementGuid>
+      <webElementGuid>4f4a9185-5701-4754-b772-08c58b8a1d98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'نعم' or . = 'نعم')]</value>
-      <webElementGuid>b628e4c3-1a37-4b25-8134-b38466ab67ed</webElementGuid>
+      <webElementGuid>90778c3e-4937-4ab0-ae61-83fbdaf39081</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
